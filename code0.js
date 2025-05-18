@@ -134,7 +134,11 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() == "Down");
 }
 if (isConditionTrue_0) {
+/* Reuse gdjs.Game_32SceneCode.GDProjectileObjects1 */
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDProjectileObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDProjectileObjects1[i].addForce(0, 400, 1);
 }
+}}
 
 }
 
