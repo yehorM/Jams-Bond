@@ -198,7 +198,7 @@
       {
         "file": "NewSprite3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewSprite3.png\",\"extension\":\".png\"}",
         "name": "NewSprite3.png",
         "smoothed": true,
         "userAdded": false
@@ -206,7 +206,7 @@
       {
         "file": "NewSprite4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewSprite4.png\",\"extension\":\".png\"}",
         "name": "NewSprite4.png",
         "smoothed": true,
         "userAdded": false
@@ -322,6 +322,38 @@
         "name": "button_rectangle_gradient.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Player move right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player move right",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player move right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player move right2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player move left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player move left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player move left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player move left2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -359,10 +391,35 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673792,
+        "zoomFactor": 0.4950840073748915,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Player Character",
+          "objects": [
+            {
+              "name": "Player"
+            }
+          ]
+        },
+        {
+          "name": "Obstacles",
+          "objects": [
+            {
+              "name": "Wall"
+            }
+          ]
+        },
+        {
+          "name": "Creatures",
+          "objects": [
+            {
+              "name": "Light_Sentient"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "DialogLines",
@@ -669,7 +726,7 @@
           "depth": 1,
           "height": 153,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI Layer",
           "name": "DialogText",
           "persistentUuid": "b8fb9e9e-c2e7-458f-9f45-78cc3e43fbfd",
           "width": 502,
@@ -686,13 +743,47 @@
           "depth": 1,
           "height": 199,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI Layer",
           "name": "DialogBoxBackground",
           "persistentUuid": "34d407a7-848c-41b3-9f5f-0e6c5aa0451e",
           "width": 553,
           "x": 670,
           "y": 518,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "7d3b5633-5ff0-4018-8df1-951b302f68d3",
+          "width": 128,
+          "x": 1104,
+          "y": -4,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "0a003d93-d1b9-4380-ab4c-7bf918673d3b",
+          "width": 128,
+          "x": 1322,
+          "y": -4,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -802,7 +893,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "type": "Sprite",
@@ -811,19 +902,24 @@
           "effects": [],
           "behaviors": [
             {
+              "allowDiagonals": true,
+              "isFolded": true,
+              "movementAngleOffset": 0,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "viewpoint": "TopDown",
               "acceleration": 400,
-              "allowDiagonals": false,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "customIsometryAngle": 30,
               "deceleration": 800,
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
-              "movementAngleOffset": 0,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
+              "rotateObject": false
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
             }
           ],
           "animations": [
@@ -838,7 +934,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ple",
+                      "image": "Player move left",
                       "points": [
                         {
                           "name": "FirePoint",
@@ -860,19 +956,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -880,7 +976,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite.png",
+                      "image": "Player move left2",
                       "points": [
                         {
                           "name": "FirePoint",
@@ -902,19 +998,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -935,7 +1031,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "capysprite17.png",
+                      "image": "Player move right",
                       "points": [
                         {
                           "name": "FirePoint",
@@ -957,19 +1053,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -977,7 +1073,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "capysprite18.png",
+                      "image": "Player move right2",
                       "points": [
                         {
                           "name": "FirePoint",
@@ -999,19 +1095,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -1053,19 +1149,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -1095,19 +1191,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -1123,6 +1219,7 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
@@ -1149,19 +1246,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -1191,19 +1288,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 8,
-                            "y": 25
+                            "x": 43,
+                            "y": 230
                           },
                           {
-                            "x": 262,
-                            "y": 25
+                            "x": 266,
+                            "y": 230
                           },
                           {
-                            "x": 262,
+                            "x": 266,
                             "y": 425
                           },
                           {
-                            "x": 8,
+                            "x": 43,
                             "y": 425
                           }
                         ]
@@ -1277,7 +1374,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Light_Sentient",
           "type": "Sprite",
@@ -1290,7 +1387,12 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
           "animations": [
             {
               "name": "Sentient move right",
@@ -1320,11 +1422,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1356,11 +1458,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1392,11 +1494,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1441,11 +1543,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1477,11 +1579,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1513,11 +1615,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1562,11 +1664,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1598,11 +1700,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1634,11 +1736,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1683,11 +1785,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1719,11 +1821,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1755,11 +1857,11 @@
                         [
                           {
                             "x": 0,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
-                            "y": 25
+                            "y": 518
                           },
                           {
                             "x": 410,
@@ -1868,22 +1970,15 @@
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Player",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Start Of Scene Events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1926,6 +2021,96 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Start Of Frame Events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Camera Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Basic Collision"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player Character",
+                "Obstacles",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player Character",
+                "Creatures",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2116,6 +2301,17 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player Facing",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2370,6 +2566,17 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player Projectiles",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2510,6 +2717,57 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Projectile",
+                "Player.PointX(\"FirePoint\")",
+                "Player.PointY(\"FirePoint\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "Projectile",
+                "MouseX()",
+                "MouseY()",
+                "400",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "NPC Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2822,46 +3080,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Projectile",
-                "Player.PointX(\"FirePoint\")",
-                "Player.PointY(\"FirePoint\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Projectile",
-                "MouseX()",
-                "MouseY()",
-                "400",
-                "1"
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -2892,6 +3110,39 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -2926,6 +3177,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ]
     }
@@ -13124,6 +13379,106 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Gustavo Marciano",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "YSort",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNvcnQtYXNjZW5kaW5nIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5IDE3SDIyTDE4IDIxTDE0IDE3SDE3VjNIMTlNMiAxN0gxMlYxOUgyTTYgNVY3SDJWNU0yIDExSDlWMTNIMlYxMVoiIC8+PC9zdmc+",
+      "name": "YSort",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg",
+      "shortDescription": "Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a \"Top-Down\" view, RPG...",
+      "version": "0.1.0",
+      "description": [
+        "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+        "",
+        "This is useful for:",
+        "- isometric games ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game))",
+        "- top-down games ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))"
+      ],
+      "origin": {
+        "identifier": "YSort",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "z-order",
+        "y-sort",
+        "depth",
+        "fake-depth",
+        "isometric",
+        "rpg"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+          "fullName": "YSort",
+          "name": "YSort",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This is done in doStepPostEvents because the sort must happens right before the rendering to avoid a 1 frame delay."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "YSort::YSort",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [],
           "sharedPropertyDescriptors": []
         }
       ],
