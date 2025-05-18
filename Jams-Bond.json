@@ -2495,7 +2495,19 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Projectile",
+                    "0",
+                    "400",
+                    "1"
+                  ]
+                }
+              ]
             }
           ]
         },
