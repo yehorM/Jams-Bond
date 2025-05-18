@@ -472,6 +472,26 @@
         "name": "NewSprite26",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "fire_projectile.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fire_projectile.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "footstep_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "footstep_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2424,6 +2444,15 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Footstep\""
+              ]
             }
           ]
         },
@@ -2971,6 +3000,59 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Footstep\"",
+                ">",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Footstep\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "footstep_1.ogg",
+                "",
+                "RandomInRange(90, 115)",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -3023,7 +3105,7 @@
               },
               "parameters": [
                 "",
-                "6b13a94429c17f979e724b7dafee7cd50d3e62f06ec3d9d366e9dcef70d3f8e5_Jump_Land_03.wav",
+                "fire_projectile.ogg",
                 "",
                 "RandomInRange(90, 115)",
                 "RandomInRange(90, 115)"
@@ -3218,7 +3300,7 @@
               },
               "parameters": [
                 "",
-                "6b13a94429c17f979e724b7dafee7cd50d3e62f06ec3d9d366e9dcef70d3f8e5_Jump_Land_03.wav",
+                "fire_projectile.ogg",
                 "",
                 "RandomInRange(90, 115)",
                 "RandomInRange(90, 115)"
