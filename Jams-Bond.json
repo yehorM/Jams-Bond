@@ -1451,7 +1451,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.367325754505884,
+        "zoomFactor": 0.4789341884535273,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1526,6 +1526,11 @@
           "name": "SelectedTowerSiteY",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "IsMenuOpen",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -1917,14 +1922,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 132,
+          "height": 97,
           "keepRatio": true,
           "layer": "Option Layer",
           "name": "ToggleMusicSlider",
           "persistentUuid": "0c6730fb-f3b6-4754-b0dd-f48d68c07092",
-          "width": 733,
-          "x": 1576,
-          "y": 250,
+          "width": 596,
+          "x": 1616,
+          "y": 376,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1932,32 +1937,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 90,
           "keepRatio": true,
           "layer": "Option Layer",
           "name": "BackButton",
           "persistentUuid": "214dbd77-c1e6-4012-ac0a-509270449fa7",
-          "width": 0,
-          "x": 1805,
-          "y": 487,
+          "width": 191,
+          "x": 1867,
+          "y": 615,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "OptionsButton",
-          "persistentUuid": "58218f0c-54e5-47cd-b65c-6ab5547684a7",
-          "width": 0,
-          "x": 1632,
-          "y": 769,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2026,6 +2016,39 @@
           "x": 2235,
           "y": 1036,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "UI Layer",
+          "name": "EscHint",
+          "persistentUuid": "c1547914-2258-4879-b5c8-e990f047b34c",
+          "width": 613,
+          "x": 20,
+          "y": 20,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Option Layer",
+          "name": "SFXVolumeLabel",
+          "persistentUuid": "cb7e9268-3ead-40c5-a10b-5c225a19277f",
+          "width": 0,
+          "x": 1618,
+          "y": 294,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4009,91 +4032,6 @@
           }
         },
         {
-          "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
-          "name": "OptionsButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 6,
-            "BottomPadding": 24,
-            "TopPadding": 20,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 22,
-              "height": 64,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "White Square Decorated Button_Hovered.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 22,
-              "height": 64,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "White Square Decorated Button_Idle.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Options",
-              "font": "mononoki-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Options",
-                "font": "mononoki-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 64,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "White Square Decorated Button_Pressed.png",
-              "tiled": false,
-              "topMargin": 22,
-              "width": 192
-            }
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Wall",
@@ -4432,6 +4370,67 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EscHint",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Press ESC for Options",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "SFXVolumeLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "SFX Volume",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "SFX Volume",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4475,7 +4474,10 @@
                 "objectName": "ToggleMusicSlider"
               },
               {
-                "objectName": "OptionsButton"
+                "objectName": "EscHint"
+              },
+              {
+                "objectName": "SFXVolumeLabel"
               }
             ]
           },
@@ -4636,6 +4638,42 @@
               "parameters": [
                 "BackButton"
               ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX(\"\", 0)",
+                "\"UI Layer\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterY(\"\", 0)",
+                "\"UI Layer\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "fire_projectile.ogg",
+                "no",
+                "0",
+                "1"
+              ]
             }
           ]
         },
@@ -4655,81 +4693,190 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
-                "OptionsButton",
                 "",
-                "",
-                ""
+                "\"Escape\""
               ]
             },
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
+              "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Option Layer\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMenuOpen",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Option Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "OptionsBackground"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "OptionsTitle"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ToggleMusicSlider"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "BackButton"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "OptionsBackground",
-                "",
-                "\"Option Layer\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMenuOpen",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Option Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "OptionsBackground",
+                    "",
+                    "\"Option Layer\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "OptionsBackground",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "OptionsTitle",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ToggleMusicSlider",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "BackButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "ToggleMusicSlider",
+                    "=",
+                    "GlobalVolume()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "SFXVolumeLabel",
+                    "Text",
+                    "=",
+                    "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "OptionsBackground",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "OptionsTitle",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "ToggleMusicSlider",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "BackButton",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMenuOpen",
+                    "Toggle",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -4798,6 +4945,63 @@
               },
               "parameters": [
                 "BackButton"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "ToggleMusicSlider",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "ToggleMusicSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SFXVolumeLabel",
+                "Text",
+                "=",
+                "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
               ]
             }
           ]
@@ -5430,6 +5634,16 @@
                 "=",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -5610,6 +5824,16 @@
               },
               "parameters": [
                 "ShotCoolingDown",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
                 "=",
                 ""
               ]
