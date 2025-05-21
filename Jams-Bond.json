@@ -857,6 +857,14 @@
         "name": "Crate3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "signpost.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "signpost.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1451,7 +1459,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535273,
+        "zoomFactor": 0.5653158055126342,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2049,6 +2057,40 @@
           "x": 1618,
           "y": 294,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 182,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Signpost",
+          "persistentUuid": "62745933-8348-4603-b7c6-cf1dfb307b5f",
+          "width": 222,
+          "x": 1629,
+          "y": 70,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 66,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TutorialText",
+          "persistentUuid": "36f3925d-35ea-4873-a153-07f0ee8f3724",
+          "width": 428,
+          "x": 1534,
+          "y": 21,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4431,6 +4473,108 @@
             "characterSize": 60,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Signpost",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "signpost.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 123,
+                            "y": 82
+                          },
+                          {
+                            "x": 908,
+                            "y": 82
+                          },
+                          {
+                            "x": 908,
+                            "y": 941
+                          },
+                          {
+                            "x": 123,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TutorialText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Tutorial: you can shoot, build towers, use magic!\nMove away and this will disappear.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 7,
+            "g": 7,
+            "r": 228
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Tutorial: you can shoot, build towers, use magic!\nMove away and this will disappear.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "228;7;7"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4524,6 +4668,12 @@
           },
           {
             "objectName": "DialogBoxBackground"
+          },
+          {
+            "objectName": "Signpost"
+          },
+          {
+            "objectName": "TutorialText"
           }
         ]
       },
@@ -4673,6 +4823,88 @@
                 "no",
                 "0",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TutorialText"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Tutorial Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Signpost",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TutorialText",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Signpost",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TutorialText"
               ]
             }
           ]
