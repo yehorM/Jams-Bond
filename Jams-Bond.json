@@ -865,6 +865,70 @@
         "name": "signpost.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "collectible.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "collectible.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "collectible2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "collectible2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pressure plate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressure plate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fire spell.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"fire spell.png\",\"extension\":\".png\"}",
+        "name": "fire spell.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fire spell2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire spell2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fire.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fire",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fire2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fire2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1459,7 +1523,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126342,
+        "zoomFactor": 0.43357743047023994,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1537,6 +1601,21 @@
         },
         {
           "name": "IsMenuOpen",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "EnemyTowerCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ItemsCollectedCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HasFireSpell",
           "type": "boolean",
           "value": false
         }
@@ -2094,6 +2173,223 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 387,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyTower",
+          "persistentUuid": "3429019f-b6c6-42dd-bc20-b1092cb4664c",
+          "width": 377,
+          "x": 2229,
+          "y": 139,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI Layer",
+          "name": "TowersLeftText",
+          "persistentUuid": "e3b149d6-25c6-49b9-ae01-2d50c5fdfb2e",
+          "width": 0,
+          "x": 28,
+          "y": 676,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item_Collectable",
+          "persistentUuid": "862dd38e-b19f-43d7-ac6d-322ef7bc4c4f",
+          "width": 53,
+          "x": 1808,
+          "y": 383,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item_Collectable",
+          "persistentUuid": "ca88189b-d9f8-43d8-a2de-7f6f25b39434",
+          "width": 53,
+          "x": 1822,
+          "y": 327,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item_Collectable",
+          "persistentUuid": "1a1595c6-d70c-47d2-9f56-25b03e8b804e",
+          "width": 53,
+          "x": 1825,
+          "y": 285,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item_Collectable",
+          "persistentUuid": "8f865b1f-7421-4658-b580-4517a999931f",
+          "width": 53,
+          "x": 1702,
+          "y": 457,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "UI Layer",
+          "name": "ItemUIIcon",
+          "persistentUuid": "5e983347-e430-4f4f-8035-9bc339ba0bb1",
+          "width": 48,
+          "x": -1000,
+          "y": 631,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemySpawnPoint",
+          "persistentUuid": "5316478e-3e05-48aa-a999-ad7f7577347a",
+          "width": 0,
+          "x": 1346,
+          "y": 701,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemySpawnPoint",
+          "persistentUuid": "c83db83e-5a30-4273-9077-518a851ebc35",
+          "width": 0,
+          "x": 1032,
+          "y": 701,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 196,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PressurePlate",
+          "persistentUuid": "06e8641e-4281-4289-81e3-305332fa25df",
+          "width": 168,
+          "x": 1730,
+          "y": 807,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuzzleText",
+          "persistentUuid": "9e33b998-672e-40c0-8daa-54eee188d413",
+          "width": 0,
+          "x": 1651,
+          "y": 767,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SpellItem_Fire",
+          "persistentUuid": "e32edefc-1d0b-4857-a44e-27e79a5dda4a",
+          "width": 78,
+          "x": 1341,
+          "y": 253,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "UI Layer",
+          "name": "UI_SpellIcon_Fire",
+          "persistentUuid": "eeff3599-4b0b-49be-80c2-4c18862a7667",
+          "width": 70,
+          "x": 20,
+          "y": 524,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2641,6 +2937,55 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 16
+                          },
+                          {
+                            "x": 43,
+                            "y": 16
+                          },
+                          {
+                            "x": 43,
+                            "y": 37
+                          },
+                          {
+                            "x": 21,
+                            "y": 37
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "fire",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fire2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4575,25 +4920,539 @@
             "characterSize": 20,
             "color": "228;7;7"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TowersLeftText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "\"Towers left: 0\"",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "\"Towers left: 0\"",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "248;231;28"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Item_Collectable",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "collectible.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 123,
+                            "y": 187
+                          },
+                          {
+                            "x": 900,
+                            "y": 187
+                          },
+                          {
+                            "x": 900,
+                            "y": 859
+                          },
+                          {
+                            "x": 123,
+                            "y": 859
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ItemUIIcon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "collectible2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 123,
+                            "y": 187
+                          },
+                          {
+                            "x": 900,
+                            "y": 187
+                          },
+                          {
+                            "x": 900,
+                            "y": 859
+                          },
+                          {
+                            "x": 123,
+                            "y": 859
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EnemySpawnPoint",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite27",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 13
+                          },
+                          {
+                            "x": 48,
+                            "y": 13
+                          },
+                          {
+                            "x": 48,
+                            "y": 47
+                          },
+                          {
+                            "x": 12,
+                            "y": 47
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PressurePlate",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pressure plate.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 102,
+                            "y": 318
+                          },
+                          {
+                            "x": 923,
+                            "y": 318
+                          },
+                          {
+                            "x": 923,
+                            "y": 705
+                          },
+                          {
+                            "x": 102,
+                            "y": 705
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PuzzleText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Puzzle: step on a plate to open a door.\nBUT only if all red gems are collected!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Puzzle: step on a plate to open a door.\nBUT only if all red gems are collected!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SpellItem_Fire",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fire spell.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 241,
+                            "y": 84
+                          },
+                          {
+                            "x": 784,
+                            "y": 84
+                          },
+                          {
+                            "x": 784,
+                            "y": 871
+                          },
+                          {
+                            "x": 241,
+                            "y": 871
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_SpellIcon_Fire",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fire spell2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 241,
+                            "y": 84
+                          },
+                          {
+                            "x": 784,
+                            "y": 84
+                          },
+                          {
+                            "x": 784,
+                            "y": 871
+                          },
+                          {
+                            "x": 241,
+                            "y": 871
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "Dialogs",
+            "children": [
+              {
+                "objectName": "DialogBoxBackground"
+              },
+              {
+                "objectName": "DialogText"
+              }
+            ]
+          },
+          {
+            "folderName": "Player",
+            "children": [
+              {
+                "objectName": "Projectile"
+              },
+              {
+                "objectName": "Player"
+              }
+            ]
+          },
+          {
+            "folderName": "Enemies",
+            "children": [
+              {
+                "objectName": "Explosion"
+              },
+              {
+                "objectName": "Light_Sentient"
+              },
+              {
+                "objectName": "EnemySpawnPoint"
+              }
+            ]
+          },
+          {
             "folderName": "Environmental entities (interactive)",
             "children": [
+              {
+                "objectName": "ItemUIIcon"
+              },
+              {
+                "objectName": "TutorialText"
+              },
+              {
+                "objectName": "Signpost"
+              },
               {
                 "objectName": "Door"
               },
               {
                 "objectName": "Crate"
+              },
+              {
+                "objectName": "Item_Collectable"
+              },
+              {
+                "objectName": "PressurePlate"
+              },
+              {
+                "objectName": "PuzzleText"
+              },
+              {
+                "objectName": "SpellItem_Fire"
+              },
+              {
+                "objectName": "UI_SpellIcon_Fire"
               }
             ]
           },
           {
             "folderName": "Environmental entities (non-interactive)",
             "children": [
+              {
+                "objectName": "Ground_Tilemap"
+              },
+              {
+                "objectName": "WallOld"
+              },
+              {
+                "objectName": "Plant"
+              },
               {
                 "objectName": "Wall"
               },
@@ -4639,41 +5498,11 @@
               },
               {
                 "objectName": "PlayerTower"
+              },
+              {
+                "objectName": "TowersLeftText"
               }
             ]
-          },
-          {
-            "objectName": "Ground_Tilemap"
-          },
-          {
-            "objectName": "Player"
-          },
-          {
-            "objectName": "Light_Sentient"
-          },
-          {
-            "objectName": "Explosion"
-          },
-          {
-            "objectName": "Projectile"
-          },
-          {
-            "objectName": "WallOld"
-          },
-          {
-            "objectName": "Plant"
-          },
-          {
-            "objectName": "DialogText"
-          },
-          {
-            "objectName": "DialogBoxBackground"
-          },
-          {
-            "objectName": "Signpost"
-          },
-          {
-            "objectName": "TutorialText"
           }
         ]
       },
@@ -4831,6 +5660,111 @@
               },
               "parameters": [
                 "TutorialText"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "EnemyTowerCount",
+                "=",
+                "Count(EnemyTower)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"EnemySpawnTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "UI_SpellIcon_Fire"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Light_Sentient",
+                "<",
+                "5"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EnemySpawnTimer\"",
+                    ">",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemySpawnPoint"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Light_Sentient",
+                    "EnemySpawnPoint.X()",
+                    "EnemySpawnPoint.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Light_Sentient",
+                    "Resizable",
+                    "120",
+                    "235"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EnemySpawnTimer\""
+                  ]
+                }
               ]
             }
           ]
@@ -5929,6 +6863,34 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "HasFireSpell",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Projectile",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "StringVariable"
                   },
                   "parameters": [
@@ -6125,6 +7087,36 @@
               "parameters": [
                 "",
                 "\"Shot Cooldown\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "HasFireSpell",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Projectile",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -6630,6 +7622,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyTowerCount",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -6863,6 +7865,82 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TowersLeftText",
+                "Text",
+                "=",
+                "\"Towers left: \" + ToString(Variable(EnemyTowerCount))"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Collectable Spells",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "SpellItem_Fire",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SpellItem_Fire",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "HasFireSpell",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UI_SpellIcon_Fire",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -7013,6 +8091,108 @@
                   "parameters": [
                     "Projectile",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Item_Collectable",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Item_Collectable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ItemUIIcon",
+                    "20*(1 + ItemsCollectedCount)",
+                    "SceneWindowHeight() - 80",
+                    "\"UI Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "ItemUIIcon",
+                    "Resizable",
+                    "48",
+                    "42"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ItemsCollectedCount",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PressurePlate",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Item_Collectable",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "\"Open\""
                   ]
                 }
               ]
