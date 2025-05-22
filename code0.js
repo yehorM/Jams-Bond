@@ -1,68 +1,93 @@
-gdjs.MainMenuCode = {};
-gdjs.MainMenuCode.localVariables = [];
-gdjs.MainMenuCode.GDNewSpriteObjects1= [];
-gdjs.MainMenuCode.GDNewSpriteObjects2= [];
-gdjs.MainMenuCode.GDMenuObjects1= [];
-gdjs.MainMenuCode.GDMenuObjects2= [];
-gdjs.MainMenuCode.GDPlayButtonObjects1= [];
-gdjs.MainMenuCode.GDPlayButtonObjects2= [];
-gdjs.MainMenuCode.GDQuitButtonObjects1= [];
-gdjs.MainMenuCode.GDQuitButtonObjects2= [];
+gdjs.Loading_32ScreenCode = {};
+gdjs.Loading_32ScreenCode.localVariables = [];
+gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1= [];
+gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects2= [];
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1= [];
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects2= [];
+gdjs.Loading_32ScreenCode.GDTransitionPainterObjects1= [];
+gdjs.Loading_32ScreenCode.GDTransitionPainterObjects2= [];
+gdjs.Loading_32ScreenCode.GDPlayerObjects1= [];
+gdjs.Loading_32ScreenCode.GDPlayerObjects2= [];
+gdjs.Loading_32ScreenCode.GDCameraTargetObjects1= [];
+gdjs.Loading_32ScreenCode.GDCameraTargetObjects2= [];
+gdjs.Loading_32ScreenCode.GDKoboldMonsterObjects1= [];
+gdjs.Loading_32ScreenCode.GDKoboldMonsterObjects2= [];
+gdjs.Loading_32ScreenCode.GDArcherMonsterObjects1= [];
+gdjs.Loading_32ScreenCode.GDArcherMonsterObjects2= [];
+gdjs.Loading_32ScreenCode.GDTrollMonsterObjects1= [];
+gdjs.Loading_32ScreenCode.GDTrollMonsterObjects2= [];
+gdjs.Loading_32ScreenCode.GDTowerSiteObjects1= [];
+gdjs.Loading_32ScreenCode.GDTowerSiteObjects2= [];
+gdjs.Loading_32ScreenCode.GDEnemyTowerObjects1= [];
+gdjs.Loading_32ScreenCode.GDEnemyTowerObjects2= [];
+gdjs.Loading_32ScreenCode.GDDragonFireballObjects1= [];
+gdjs.Loading_32ScreenCode.GDDragonFireballObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpellSigilObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpellSigilObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpearSigilObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpearSigilObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpearsObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpearsObjects2= [];
+gdjs.Loading_32ScreenCode.GDWoodRedBarObjects1= [];
+gdjs.Loading_32ScreenCode.GDWoodRedBarObjects2= [];
+gdjs.Loading_32ScreenCode.GDGoldGreenBarObjects1= [];
+gdjs.Loading_32ScreenCode.GDGoldGreenBarObjects2= [];
+gdjs.Loading_32ScreenCode.GDWallTileObjects1= [];
+gdjs.Loading_32ScreenCode.GDWallTileObjects2= [];
+gdjs.Loading_32ScreenCode.GDSandyFloorObjects1= [];
+gdjs.Loading_32ScreenCode.GDSandyFloorObjects2= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalNEObjects1= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalNEObjects2= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalNWObjects1= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalNWObjects2= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalSEObjects1= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalSEObjects2= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalSWObjects1= [];
+gdjs.Loading_32ScreenCode.GDWallDiagonalSWObjects2= [];
+gdjs.Loading_32ScreenCode.GDDragonMonsterObjects1= [];
+gdjs.Loading_32ScreenCode.GDDragonMonsterObjects2= [];
+gdjs.Loading_32ScreenCode.GDRockObjects1= [];
+gdjs.Loading_32ScreenCode.GDRockObjects2= [];
+gdjs.Loading_32ScreenCode.GDMouseIconObjects1= [];
+gdjs.Loading_32ScreenCode.GDMouseIconObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetKoboldObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetKoboldObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetTrollObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetTrollObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetArcherObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetArcherObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetDragonObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpawningTargetDragonObjects2= [];
+gdjs.Loading_32ScreenCode.GDFriendlyFireballObjects1= [];
+gdjs.Loading_32ScreenCode.GDFriendlyFireballObjects2= [];
+gdjs.Loading_32ScreenCode.GDCameraTargetFloorObjects1= [];
+gdjs.Loading_32ScreenCode.GDCameraTargetFloorObjects2= [];
+gdjs.Loading_32ScreenCode.GDShockwaveEffectObjects1= [];
+gdjs.Loading_32ScreenCode.GDShockwaveEffectObjects2= [];
+gdjs.Loading_32ScreenCode.GDExplosionParticlesObjects1= [];
+gdjs.Loading_32ScreenCode.GDExplosionParticlesObjects2= [];
+gdjs.Loading_32ScreenCode.GDWhiteFlashOverlayObjects1= [];
+gdjs.Loading_32ScreenCode.GDWhiteFlashOverlayObjects2= [];
 
 
-gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
-
-};gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects1});
-gdjs.MainMenuCode.eventsList1 = function(runtimeScene) {
-
-};gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDQuitButtonObjects1Objects = Hashtable.newFrom({"QuitButton": gdjs.MainMenuCode.GDQuitButtonObjects1});
-gdjs.MainMenuCode.eventsList2 = function(runtimeScene) {
+gdjs.Loading_32ScreenCode.eventsList0 = function(runtimeScene) {
 
 {
 
-
-gdjs.MainMenuCode.eventsList0(runtimeScene);
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("PlayButton"), gdjs.MainMenuCode.GDPlayButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("LoadingCompleteButton"), gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayButtonObjects1Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+for (var i = 0, k = 0, l = gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length;i<l;++i) {
+    if ( gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1[k] = gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1[i];
+        ++k;
+    }
 }
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Game Scene", false);
-}}
-
-}
-
-
-{
-
-
-gdjs.MainMenuCode.eventsList1(runtimeScene);
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("QuitButton"), gdjs.MainMenuCode.GDQuitButtonObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDQuitButtonObjects1Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
 }}
 
 }
@@ -70,31 +95,151 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.MainMenuCode.func = function(runtimeScene) {
+gdjs.Loading_32ScreenCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.MainMenuCode.GDNewSpriteObjects1.length = 0;
-gdjs.MainMenuCode.GDNewSpriteObjects2.length = 0;
-gdjs.MainMenuCode.GDMenuObjects1.length = 0;
-gdjs.MainMenuCode.GDMenuObjects2.length = 0;
-gdjs.MainMenuCode.GDPlayButtonObjects1.length = 0;
-gdjs.MainMenuCode.GDPlayButtonObjects2.length = 0;
-gdjs.MainMenuCode.GDQuitButtonObjects1.length = 0;
-gdjs.MainMenuCode.GDQuitButtonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTransitionPainterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTransitionPainterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayerObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayerObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDKoboldMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDKoboldMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDArcherMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDArcherMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTrollMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTrollMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTowerSiteObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTowerSiteObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDEnemyTowerObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDEnemyTowerObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonFireballObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonFireballObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellSigilObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellSigilObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearSigilObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearSigilObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearsObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearsObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWoodRedBarObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWoodRedBarObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDGoldGreenBarObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDGoldGreenBarObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallTileObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallTileObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSandyFloorObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSandyFloorObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNEObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNEObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNWObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNWObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSEObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSEObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSWObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSWObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDRockObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDRockObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDMouseIconObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDMouseIconObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetKoboldObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetKoboldObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetTrollObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetTrollObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetArcherObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetArcherObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetDragonObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetDragonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDFriendlyFireballObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDFriendlyFireballObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetFloorObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetFloorObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDShockwaveEffectObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDShockwaveEffectObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDExplosionParticlesObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDExplosionParticlesObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWhiteFlashOverlayObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWhiteFlashOverlayObjects2.length = 0;
 
-gdjs.MainMenuCode.eventsList2(runtimeScene);
-gdjs.MainMenuCode.GDNewSpriteObjects1.length = 0;
-gdjs.MainMenuCode.GDNewSpriteObjects2.length = 0;
-gdjs.MainMenuCode.GDMenuObjects1.length = 0;
-gdjs.MainMenuCode.GDMenuObjects2.length = 0;
-gdjs.MainMenuCode.GDPlayButtonObjects1.length = 0;
-gdjs.MainMenuCode.GDPlayButtonObjects2.length = 0;
-gdjs.MainMenuCode.GDQuitButtonObjects1.length = 0;
-gdjs.MainMenuCode.GDQuitButtonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.eventsList0(runtimeScene);
+gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTransitionPainterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTransitionPainterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayerObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayerObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDKoboldMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDKoboldMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDArcherMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDArcherMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTrollMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTrollMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTowerSiteObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTowerSiteObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDEnemyTowerObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDEnemyTowerObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonFireballObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonFireballObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellSigilObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellSigilObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearSigilObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearSigilObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearsObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpearsObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWoodRedBarObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWoodRedBarObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDGoldGreenBarObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDGoldGreenBarObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallTileObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallTileObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSandyFloorObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSandyFloorObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNEObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNEObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNWObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalNWObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSEObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSEObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSWObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWallDiagonalSWObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonMonsterObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDDragonMonsterObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDRockObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDRockObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDMouseIconObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDMouseIconObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetKoboldObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetKoboldObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetTrollObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetTrollObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetArcherObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetArcherObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetDragonObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpawningTargetDragonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDFriendlyFireballObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDFriendlyFireballObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetFloorObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCameraTargetFloorObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDShockwaveEffectObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDShockwaveEffectObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDExplosionParticlesObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDExplosionParticlesObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDWhiteFlashOverlayObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDWhiteFlashOverlayObjects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['MainMenuCode'] = gdjs.MainMenuCode;
+gdjs['Loading_32ScreenCode'] = gdjs.Loading_32ScreenCode;
