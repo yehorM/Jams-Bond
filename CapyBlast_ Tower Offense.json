@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down",
     "version": "1.0.0",
-    "name": "CapyBlast: Tower Offense - Copy",
+    "name": "CapyBlast: Tower Offense",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -991,6 +991,30 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Die8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "shockwave AI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shockwave AI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ExplosionParticles AI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionParticles AI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
         "smoothed": true,
         "userAdded": false
       }
@@ -5310,6 +5334,10 @@
           "type": "NavMeshPathfinding::NavMeshPathfindingObstacleBehavior"
         },
         {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
           "name": "YSort",
           "type": "YSort::YSort"
         }
@@ -5858,6 +5886,208 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ShockwaveEffect",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "shockwave AI.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 223,
+                        "y": 223
+                      },
+                      {
+                        "x": 787,
+                        "y": 223
+                      },
+                      {
+                        "x": 787,
+                        "y": 805
+                      },
+                      {
+                        "x": 223,
+                        "y": 805
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ExplosionParticles",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ExplosionParticles AI.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 123,
+                        "y": 144
+                      },
+                      {
+                        "x": 899,
+                        "y": 144
+                      },
+                      {
+                        "x": 899,
+                        "y": 867
+                      },
+                      {
+                        "x": 123,
+                        "y": 867
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WhiteFlashOverlay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashOpacity",
+          "type": "Flash::FlashOpacity",
+          "Opacity": "Opacity",
+          "TweenBehavior": "Tween",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0,
+          "TargetOpacity": 0,
+          "StartingOpacity": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5889,6 +6119,20 @@
       {
         "folderName": "Interactive Terrain",
         "children": [
+          {
+            "folderName": "Terrain effects",
+            "children": [
+              {
+                "objectName": "WhiteFlashOverlay"
+              },
+              {
+                "objectName": "ShockwaveEffect"
+              },
+              {
+                "objectName": "ExplosionParticles"
+              }
+            ]
+          },
           {
             "objectName": "Rock"
           }
@@ -6079,6 +6323,16 @@
       "name": "Failstate",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "ShakeTimer",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ShakePower",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -6999,7 +7253,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514098,
+        "zoomFactor": 0.7370816317994241,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8864,6 +9118,222 @@
             },
             {
               "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Rock",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ShakeTimer",
+                "=",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ShakePower",
+                "=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraZoom2"
+              },
+              "parameters": [
+                "",
+                "\"CameraZoom\"",
+                "1.5",
+                "",
+                "\"linear\"",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ShockwaveEffect",
+                "Rock.X()",
+                "Rock.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "ShockwaveEffect",
+                "Resizable",
+                "256",
+                "256"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "WhiteFlashOverlay",
+                "0",
+                "0",
+                "\"UI Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "WhiteFlashOverlay",
+                "=",
+                "999"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "WhiteFlashOverlay",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "WhiteFlashOverlay",
+                "Resizable",
+                "=",
+                "SceneWindowWidth()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "WhiteFlashOverlay",
+                "Resizable",
+                "=",
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "WhiteFlashOverlay",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeOutQuad\"",
+                "0.4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ExplosionParticles",
+                "Rock.X()",
+                "Rock.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "ExplosionParticles",
+                "Resizable",
+                "256",
+                "256"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Rock",
+                "Tween",
+                "\"RockTween\"",
+                "0",
+                "\"linear\"",
+                "0.4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "ShockwaveEffect",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeOutQuad\"",
+                "0.6",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -8873,13 +9343,50 @@
             },
             {
               "type": {
-                "value": "FadeMusicVolume"
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
               },
               "parameters": [
                 "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenCameraZoom2"
+              },
+              "parameters": [
+                "",
+                "\"CameraZoom\"",
                 "1",
-                "0",
-                "0.5"
+                "",
+                "\"linear\"",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ExplosionParticles",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "WhiteFlashOverlay",
+                ""
               ]
             },
             {
@@ -9006,6 +9513,97 @@
               "name": "RandomRoll",
               "type": "number",
               "value": 0
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Camera Shake",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ShakeTimer",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ShakeTimer",
+                "-",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X() + RandomFloatInRange(-ShakePower, ShakePower)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.Y() + RandomFloatInRange(-ShakePower, ShakePower)",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ShakeTimer",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -10617,6 +11215,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spellcasting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11076,6 +11675,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower Building",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11408,6 +12008,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Movement & Attacking",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11768,6 +12369,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Damage & Winstate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12099,6 +12701,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Towers",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12607,6 +13210,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Friendly Tower Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12831,6 +13435,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Miscellaneous Player Damage & Failstate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
