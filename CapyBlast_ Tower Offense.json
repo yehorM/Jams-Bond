@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Loading Screen",
+  "firstLayout": "Main Menu",
   "gdVersion": {
     "build": 231,
     "major": 5,
@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Exports\\12",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
