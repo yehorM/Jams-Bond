@@ -58,14 +58,14 @@
       "ios-icon-87": ""
     },
     "loadingScreen": {
-      "backgroundColor": 0,
-      "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
-      "logoAndProgressFadeInDuration": 0.2,
+      "backgroundColor": 16777215,
+      "backgroundFadeInDuration": 0.5,
+      "backgroundImageResourceName": "logo capy loading.png",
+      "gdevelopLogoStyle": "light-colored",
+      "logoAndProgressFadeInDuration": 0.5,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
-      "progressBarColor": 16777215,
+      "minDuration": 2,
+      "progressBarColor": 16098851,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
@@ -74,7 +74,7 @@
       "showProgressBar": true
     },
     "watermark": {
-      "placement": "bottom-left",
+      "placement": "bottom",
       "showWatermark": true
     },
     "authorIds": [],
@@ -1178,6 +1178,93 @@
         "kind": "image",
         "metadata": "",
         "name": "collectible2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "capy loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "capy loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "gd loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gd loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Medieval Button Beige_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6fad8e544ef611861ec9222dd95874cd2b011f1a98a4593372a25801f3236c1c_Medieval Button Beige_Hovered.png",
+          "name": "Medieval Button Beige_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Medieval Button Beige_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7366f06f5fb6f903e0745608c31da98b3d781c9f29af9016636619b32685ec97_Medieval Button Beige_Idle.png",
+          "name": "Medieval Button Beige_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Medieval Button Beige_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8ca64832a117b91bf3128f96ab66c83c7126c3ffb82909ac01ab1d687137997a_Medieval Button Beige_Pressed.png",
+          "name": "Medieval Button Beige_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "CaesarDressing-Regular.ttf"
+        }
+      },
+      {
+        "file": "back loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "back loading2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back loading2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "logo capy loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo capy loading.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -7390,7 +7477,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.5843784410740941,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7415,16 +7502,49 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 48,
-          "height": 139,
+          "depth": 0,
+          "height": 384,
           "keepRatio": true,
           "layer": "",
-          "name": "LoadingCompleteButton",
-          "persistentUuid": "069d8489-b04f-4476-9ee6-6862c9e32fb3",
-          "width": 294,
-          "x": 480,
-          "y": 369,
-          "zOrder": 2,
+          "name": "Capy_loading",
+          "persistentUuid": "5334eecd-f57e-432d-a91c-8e6b7e9c0171",
+          "width": 256,
+          "x": 696,
+          "y": 319,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 722,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_loading",
+          "persistentUuid": "10fa6e4b-ddfd-44c0-becd-6c5eed9a120f",
+          "width": 1283,
+          "x": -1,
+          "y": -1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Play",
+          "persistentUuid": "fef340a3-2f73-4f9c-9075-5aaefff70689",
+          "width": 0,
+          "x": 537,
+          "y": 407,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7474,8 +7594,81 @@
           }
         },
         {
-          "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
-          "name": "LoadingCompleteButton",
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Capy_loading",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 1
+              },
+              "stringParameters": {
+                "color": "248;231;28"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "capy loading.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 70,
+                            "y": 291
+                          },
+                          {
+                            "x": 837,
+                            "y": 291
+                          },
+                          {
+                            "x": 837,
+                            "y": 1257
+                          },
+                          {
+                            "x": 70,
+                            "y": 1257
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Play",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
           "variables": [],
@@ -7484,30 +7677,30 @@
           "content": {
             "LeftPadding": 0,
             "RightPadding": 0,
-            "PressedLabelOffsetY": 1,
-            "BottomPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
             "TopPadding": 0,
             "HoveredFadeOutDuration": 0.2
           },
           "childrenContent": {
             "Hovered": {
-              "bottomMargin": 6,
+              "bottomMargin": 11,
               "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "On Screen Controls Button_Hovered.png",
+              "leftMargin": 7,
+              "rightMargin": 7,
+              "texture": "Medieval Button Beige_Hovered.png",
               "tiled": false,
-              "topMargin": 6,
+              "topMargin": 7,
               "width": 192
             },
             "Idle": {
-              "bottomMargin": 6,
+              "bottomMargin": 11,
               "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "On Screen Controls Button_Idle.png",
+              "leftMargin": 7,
+              "rightMargin": 7,
+              "texture": "Medieval Button Beige_Idle.png",
               "tiled": false,
-              "topMargin": 6,
+              "topMargin": 7,
               "width": 192
             },
             "Label": {
@@ -7516,18 +7709,18 @@
               "smoothed": true,
               "underlined": false,
               "string": "Play",
-              "font": "Roboto-Bold.ttf",
+              "font": "CaesarDressing-Regular.ttf",
               "textAlignment": "center",
-              "characterSize": 80,
+              "characterSize": 40,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 64,
+                "g": 99,
+                "r": 133
               },
               "content": {
                 "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
+                "isOutlineEnabled": true,
+                "isShadowEnabled": true,
                 "italic": false,
                 "outlineColor": "255;255;255",
                 "outlineThickness": 2,
@@ -7539,24 +7732,84 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Play",
-                "font": "Roboto-Bold.ttf",
+                "font": "CaesarDressing-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
-                "characterSize": 80,
-                "color": "255;255;255"
+                "characterSize": 40,
+                "color": "133;99;64"
               }
             },
             "Pressed": {
-              "bottomMargin": 6,
+              "bottomMargin": 7,
               "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "On Screen Controls Button_Pressed.png",
+              "leftMargin": 7,
+              "rightMargin": 7,
+              "texture": "Medieval Button Beige_Pressed.png",
               "tiled": false,
-              "topMargin": 6,
+              "topMargin": 11,
               "width": 192
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background_loading",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "back loading2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 42
+                          },
+                          {
+                            "x": 1536,
+                            "y": 42
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7566,7 +7819,13 @@
             "objectName": "Loading_Complete_Text"
           },
           {
-            "objectName": "LoadingCompleteButton"
+            "objectName": "Capy_loading"
+          },
+          {
+            "objectName": "Play"
+          },
+          {
+            "objectName": "Background_loading"
           }
         ]
       },
@@ -7579,7 +7838,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "LoadingCompleteButton",
+                "Play",
                 ""
               ]
             }
@@ -8246,6 +8505,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
