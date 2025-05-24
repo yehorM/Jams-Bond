@@ -1263,7 +1263,7 @@
       {
         "file": "logo capy loading.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"logo capy loading.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "logo capy loading.png",
         "smoothed": true,
         "userAdded": false
