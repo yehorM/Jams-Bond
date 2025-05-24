@@ -1279,9 +1279,347 @@
       {
         "file": "logo capy loading2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"logo capy loading2.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "logo capy loading2.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Main_Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main_Menu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Options.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Options.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "start.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Options2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Options2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Options2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Options2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "start2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "start2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/start2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "start2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Exit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exit2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Exit2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exit2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fire spell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire spell.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fire spell2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire spell2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "transparent_crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "transparent_crate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Crate.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Crate.png\"}",
+        "name": "Crate",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Crate2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Crate2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "signpost2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "signpost2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_death.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_death.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_damage_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_damage_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_damage_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_damage_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_damage_3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_damage_3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_damage_4.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_damage_4.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_damage_5.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_damage_5.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "capybara_damage_6.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "capybara_damage_6.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Click_sign.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Click_sign.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Crystal_collect.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Crystal_collect.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Level_end.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Level_end.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Stone_attack.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Stone_attack.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Stone_destruction.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Stone_destruction.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Click_general.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Click_general.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Click_play.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Click_play.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Click_general2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Click_general2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Hover.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Hover.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tower_blueattack.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tower_blueattack.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tower_fireattack.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tower_fireattack.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tower_friendly.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tower_friendly.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tower_damage.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tower_damage.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Spell_spikes.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Spell_spikes.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -7150,6 +7488,338 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpellItem_Fire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire spell.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 241,
+                        "y": 84
+                      },
+                      {
+                        "x": 784,
+                        "y": 84
+                      },
+                      {
+                        "x": 784,
+                        "y": 871
+                      },
+                      {
+                        "x": 241,
+                        "y": 871
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UI_SpellIcon_Fire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire spell2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 241,
+                        "y": 84
+                      },
+                      {
+                        "x": 784,
+                        "y": 84
+                      },
+                      {
+                        "x": 784,
+                        "y": 871
+                      },
+                      {
+                        "x": 241,
+                        "y": 871
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Crate",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Crate solid",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Crate",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53,
+                        "y": 72
+                      },
+                      {
+                        "x": 428,
+                        "y": 72
+                      },
+                      {
+                        "x": 428,
+                        "y": 442
+                      },
+                      {
+                        "x": 53,
+                        "y": 442
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crate broken",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Crate2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53,
+                        "y": 72
+                      },
+                      {
+                        "x": 428,
+                        "y": 72
+                      },
+                      {
+                        "x": 428,
+                        "y": 442
+                      },
+                      {
+                        "x": 53,
+                        "y": 442
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Signpost2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "signpost2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 123,
+                        "y": 82
+                      },
+                      {
+                        "x": 908,
+                        "y": 82
+                      },
+                      {
+                        "x": 908,
+                        "y": 941
+                      },
+                      {
+                        "x": 123,
+                        "y": 941
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "TutorialText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Collect all 5 red gems to break this crate.\nYou will got one-shot upgrade to your towers!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "245;247;235",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Collect all 5 red gems to break this crate.\nYou will got one-shot upgrade to your towers!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7163,6 +7833,12 @@
           },
           {
             "objectName": "ItemUIIcon"
+          },
+          {
+            "objectName": "SpellItem_Fire"
+          },
+          {
+            "objectName": "UI_SpellIcon_Fire"
           }
         ]
       },
@@ -7222,6 +7898,9 @@
                 "objectName": "TutorialText"
               },
               {
+                "objectName": "TutorialText2"
+              },
+              {
                 "objectName": "ExplosionParticles"
               },
               {
@@ -7234,6 +7913,12 @@
           },
           {
             "objectName": "Signpost"
+          },
+          {
+            "objectName": "Signpost2"
+          },
+          {
+            "objectName": "Crate"
           },
           {
             "objectName": "Rock"
@@ -7869,6 +8554,18 @@
                 "\"Main Menu\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Click_general.ogg",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -8032,7 +8729,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104495,
+        "zoomFactor": 0.8141881203709942,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8042,14 +8739,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 425,
+          "height": 720,
           "keepRatio": true,
           "layer": "",
           "name": "MenuPic",
           "persistentUuid": "611a49fa-3b76-4036-bdfc-e43ef84e5087",
-          "width": 435,
-          "x": 431,
-          "y": 21,
+          "width": 1281,
+          "x": 0,
+          "y": 0,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8057,16 +8754,49 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
           "keepRatio": true,
           "layer": "",
-          "name": "PlayButton",
-          "persistentUuid": "e541fdf9-9862-4205-b7a5-2f22603ca5a4",
-          "width": 0,
-          "x": 259,
-          "y": 510,
-          "zOrder": 2,
+          "name": "OptionsButton",
+          "persistentUuid": "b8d1fb58-facc-4933-8312-497f68a02984",
+          "width": 273,
+          "x": 409,
+          "y": 569,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.9780219780219781,
+          "height": 89,
+          "layer": "",
+          "name": "StartButton",
+          "persistentUuid": "c139120a-51a9-48b9-a58c-035f012b2c03",
+          "width": 273,
+          "x": 113,
+          "y": 569,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "layer": "",
+          "name": "ExitButton",
+          "persistentUuid": "1de3c382-5871-435e-affb-3d5ef442a659",
+          "width": 273,
+          "x": 710,
+          "y": 569,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8076,13 +8806,80 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "QuitButton",
-          "persistentUuid": "788307c0-6bb1-4aaf-84f7-d994813f7a3c",
+          "layer": "Options Layer",
+          "name": "OptionsTitle",
+          "persistentUuid": "371c116e-f4a7-4ec8-8625-6f4231cf104d",
           "width": 0,
-          "x": 657,
-          "y": 510,
-          "zOrder": 3,
+          "x": 459,
+          "y": 87,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "SFXVolumeLabel",
+          "persistentUuid": "2eb2b95f-c890-45f0-871f-8080977974ad",
+          "width": 0,
+          "x": 421,
+          "y": 255,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "ToggleMusicSlider",
+          "persistentUuid": "577cebdc-ce77-43c0-97b5-739ee91b1de2",
+          "width": 383,
+          "x": 351,
+          "y": 299,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 66,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "BackButton",
+          "persistentUuid": "d8ee9904-4df7-40b6-966e-56f4edc05d40",
+          "width": 260,
+          "x": 423,
+          "y": 437,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 628,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "OptionsBackground",
+          "persistentUuid": "758bc9a2-a45d-4435-b013-17d959eca0bd",
+          "width": 665,
+          "x": 206,
+          "y": -61,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8109,7 +8906,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\menu logo.png",
+                      "image": "Main_Menu.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8129,16 +8926,16 @@
                             "y": 0
                           },
                           {
-                            "x": 379,
+                            "x": 1920,
                             "y": 0
                           },
                           {
-                            "x": 379,
-                            "y": 370
+                            "x": 1920,
+                            "y": 1080
                           },
                           {
                             "x": 0,
-                            "y": 370
+                            "y": 1080
                           }
                         ]
                       ]
@@ -8150,174 +8947,331 @@
           ]
         },
         {
-          "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
-          "name": "PlayButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "OptionsButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0.2
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Hovered.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Options.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 322,
+                            "y": 0
+                          },
+                          {
+                            "x": 322,
+                            "y": 103
+                          },
+                          {
+                            "x": 0,
+                            "y": 103
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Idle.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Play",
-              "font": "Roboto-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Play",
-                "font": "Roboto-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Pressed.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
+            {
+              "name": "Options2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Options2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 322,
+                            "y": 0
+                          },
+                          {
+                            "x": 322,
+                            "y": 103
+                          },
+                          {
+                            "x": 0,
+                            "y": 103
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
-          }
+          ]
         },
         {
-          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
-          "name": "QuitButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "StartButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0.2
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Hovered.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "start.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 402,
+                            "y": 0
+                          },
+                          {
+                            "x": 402,
+                            "y": 133
+                          },
+                          {
+                            "x": 0,
+                            "y": 133
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Idle.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Quit",
-              "font": "Roboto-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Quit",
-                "font": "Roboto-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Pressed.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
+            {
+              "name": "start2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "start2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 402,
+                            "y": 0
+                          },
+                          {
+                            "x": 402,
+                            "y": 133
+                          },
+                          {
+                            "x": 0,
+                            "y": 133
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
-          }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ExitButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Exit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 407,
+                            "y": 0
+                          },
+                          {
+                            "x": 407,
+                            "y": 132
+                          },
+                          {
+                            "x": 0,
+                            "y": 132
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Exit2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Exit2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 407,
+                            "y": 0
+                          },
+                          {
+                            "x": 407,
+                            "y": 132
+                          },
+                          {
+                            "x": 0,
+                            "y": 132
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8327,10 +9281,13 @@
             "objectName": "MenuPic"
           },
           {
-            "objectName": "PlayButton"
+            "objectName": "OptionsButton"
           },
           {
-            "objectName": "QuitButton"
+            "objectName": "StartButton"
+          },
+          {
+            "objectName": "ExitButton"
           }
         ]
       },
@@ -8360,6 +9317,15 @@
                 "75",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Options Layer\""
+              ]
             }
           ]
         },
@@ -8368,11 +9334,22 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "PlayButton",
+                "StartButton",
+                "",
+                "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ]
             }
           ],
@@ -8385,26 +9362,746 @@
                 "",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Click_play.ogg",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ExitButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Click_general2.ogg",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "OptionsButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Options Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Click_general2.ogg",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "OptionsBackground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "OptionsTitle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ToggleMusicSlider",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "BackButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "ToggleMusicSlider",
+                "=",
+                "GlobalVolume()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SFXVolumeLabel",
+                "Text",
+                "=",
+                "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "Toggle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "OptionsButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "OptionsButton",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hover.ogg",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "OptionsButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "OptionsButton",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "StartButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "StartButton",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hover.ogg",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "StartButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "StartButton",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ExitButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "ExitButton",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hover.ogg",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ExitButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "ExitButton",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Options",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMenuOpen",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "OptionsBackground"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "OptionsTitle"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ToggleMusicSlider"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "BackButton"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMenuOpen",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Options Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "OptionsBackground",
+                    "",
+                    "\"Options Layer\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "OptionsBackground",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "OptionsTitle",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ToggleMusicSlider",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "BackButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "ToggleMusicSlider",
+                    "=",
+                    "GlobalVolume()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "SFXVolumeLabel",
+                    "Text",
+                    "=",
+                    "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Level 1\"",
+                    "IsMenuOpen",
+                    "Toggle",
                     ""
                   ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BackButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Options Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "OptionsBackground"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "OptionsTitle"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ToggleMusicSlider"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "BackButton"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "ToggleMusicSlider",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "ToggleMusicSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SFXVolumeLabel",
+                "Text",
+                "=",
+                "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -8434,6 +10131,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Options Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -8566,7 +10296,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488359,
+        "zoomFactor": 0.49508400737490604,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8595,6 +10325,11 @@
           "name": "ItemsCollectedCount",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "HasSpellFire",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -11083,7 +12818,7 @@
           "stringProperties": [],
           "initialVariables": []
         },
-		{
+        {
           "angle": 0,
           "customSize": false,
           "height": 0,
@@ -11289,8 +13024,8 @@
           "name": "Item_Collectable",
           "persistentUuid": "646149c1-7e41-4673-8fcf-6e1185c84352",
           "width": 64,
-          "x": 509,
-          "y": 624,
+          "x": 1647,
+          "y": -295,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -11305,8 +13040,8 @@
           "name": "Item_Collectable",
           "persistentUuid": "d6299209-afac-4451-bfda-108e3e65b779",
           "width": 64,
-          "x": 659,
-          "y": 560,
+          "x": 2111,
+          "y": 600,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -11321,8 +13056,8 @@
           "name": "Item_Collectable",
           "persistentUuid": "0d57d62e-1b9b-4e8d-bab2-11b9c835eb07",
           "width": 64,
-          "x": 607,
-          "y": 559,
+          "x": 1505,
+          "y": 761,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -11337,8 +13072,8 @@
           "name": "Item_Collectable",
           "persistentUuid": "207e1983-ac51-4b67-99ca-80ce35ed0209",
           "width": 64,
-          "x": 634,
-          "y": 338,
+          "x": 754,
+          "y": 619,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -11353,9 +13088,75 @@
           "name": "Item_Collectable",
           "persistentUuid": "aaf286ff-09ca-4600-96c4-f18d691e5b45",
           "width": 64,
-          "x": 635,
-          "y": 443,
+          "x": 849,
+          "y": 496,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.8510638297872339,
+          "height": 120,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "906002ba-bbfa-4d45-9cbd-39f182e1d7a9",
+          "width": 120,
+          "x": 1582,
+          "y": 818,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "UI Layer",
+          "name": "UI_SpellIcon_Fire",
+          "persistentUuid": "02b48d9b-9233-40f8-86cb-cdf1b8cf585a",
+          "width": 80,
+          "x": -118,
+          "y": -5,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Signpost2",
+          "persistentUuid": "70e91740-e0c2-49b2-a301-e0aee2011c66",
+          "width": 176,
+          "x": 1551,
+          "y": 672,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TutorialText2",
+          "persistentUuid": "b2a1a77d-8a8f-477d-b7b9-ccd85da7fb95",
+          "width": 0,
+          "x": 1449,
+          "y": 634,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11493,7 +13294,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Tutorial How-To",
+          "name": "Tutorials How-To",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -11532,6 +13333,18 @@
                 "TutorialText",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Click_sign.ogg",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -11558,6 +13371,81 @@
               },
               "parameters": [
                 "TutorialText"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Signpost2",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TutorialText2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Click_sign.ogg",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Signpost2",
+                "300",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TutorialText2"
               ]
             }
           ]
@@ -11656,6 +13544,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Stone_attack.ogg",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -11686,6 +13586,18 @@
               },
               "parameters": [
                 "MouseIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Stone_destruction.ogg",
+                "",
+                "",
                 ""
               ]
             },
@@ -13055,6 +14967,18 @@
                 "\"Thanks For Playing\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Level_end.ogg",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -13517,6 +15441,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Crystal_collect.ogg",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -13552,8 +15488,121 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ItemsCollectedCount",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Crate",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SpellItem_Fire",
+                "1692",
+                "834",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "SpellItem_Fire",
+                "Resizable",
+                "80",
+                "80"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "SpellItem_Fire",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SpellItem_Fire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "UI_SpellIcon_Fire",
+                "SceneWindowWidth() - 80",
+                "62",
+                "\"UI Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "UI_SpellIcon_Fire",
+                "Resizable",
+                "48",
+                "42"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "HasSpellFire",
+                "True",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -15293,7 +17342,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spellcasting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15767,7 +17815,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tower Building",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15838,6 +17885,18 @@
                     "FriendlyTowerCount",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Tower_friendly.ogg",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -16053,6 +18112,128 @@
                 },
                 {
                   "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "HasSpellFire",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "Creatures",
+                    "800",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Creatures",
+                    "TowerSite.CenterX()",
+                    "TowerSite.CenterY()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetBulletLayer"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "FireBullet",
+                    "\"Bullet Layer\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "FireBullet",
+                    "TowerSite.CenterX()",
+                    "TowerSite.CenterY()",
+                    "SpellItem_Fire",
+                    "Creatures.CenterX()",
+                    "Creatures.CenterY()",
+                    "200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "SpellItem_Fire",
+                    "Resizable",
+                    "42",
+                    "42"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Tower_fireattack.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "TowerSite",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "Animation",
+                    "=",
+                    "\"FriendlyTower\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "HasSpellFire",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Distance"
                   },
                   "parameters": [
@@ -16112,8 +18293,25 @@
                     "280",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Tower_blueattack.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -16953,7 +19151,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy Damage & Winstate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17031,6 +19228,18 @@
                     "Creatures",
                     "Speared",
                     "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Spell_spikes.ogg",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -17138,6 +19347,58 @@
                   },
                   "parameters": [
                     "FriendlyFireball",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpellItem_Fire",
+                    "Creatures",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Creatures",
+                    "Health",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Creatures",
+                    "Health",
+                    "200",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SpellItem_Fire",
                     ""
                   ]
                 }
@@ -17285,7 +19546,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy Towers",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17544,6 +19804,18 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Tower_damage.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -17742,6 +20014,13 @@
                     "+",
                     "1"
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }
@@ -18539,6 +20818,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "capybara_damage_5.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -18585,6 +20876,18 @@
                     "WoodRedBar",
                     "-",
                     "10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "capybara_damage_6.ogg",
+                    "",
+                    "",
                     ""
                   ]
                 },
@@ -18667,6 +20970,18 @@
                   "parameters": [
                     "Failstate",
                     "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "capybara_death.ogg",
+                    "",
+                    "",
                     ""
                   ]
                 }
