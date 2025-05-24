@@ -363,6 +363,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDOptionsButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19355612);
+}
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.Main_32MenuCode.GDOptionsButtonObjects1 */
 {for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsButtonObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDOptionsButtonObjects1[i].getBehavior("Animation").setAnimationIndex(1);
@@ -398,6 +403,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDStartButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9136556);
+}
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.Main_32MenuCode.GDStartButtonObjects1 */
 {for(var i = 0, len = gdjs.Main_32MenuCode.GDStartButtonObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDStartButtonObjects1[i].getBehavior("Animation").setAnimationIndex(1);
@@ -432,6 +442,11 @@ gdjs.copyArray(runtimeScene.getObjects("ExitButton"), gdjs.Main_32MenuCode.GDExi
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDExitButtonObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9198468);
+}
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Main_32MenuCode.GDExitButtonObjects1 */
 {for(var i = 0, len = gdjs.Main_32MenuCode.GDExitButtonObjects1.length ;i < len;++i) {
@@ -485,7 +500,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10674260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17512924);
 }
 }
 if (isConditionTrue_0) {
