@@ -2,8 +2,12 @@ gdjs.Loading_32ScreenCode = {};
 gdjs.Loading_32ScreenCode.localVariables = [];
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1= [];
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects2= [];
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1= [];
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects2= [];
+gdjs.Loading_32ScreenCode.GDCapy_9595loadingObjects1= [];
+gdjs.Loading_32ScreenCode.GDCapy_9595loadingObjects2= [];
+gdjs.Loading_32ScreenCode.GDPlayObjects1= [];
+gdjs.Loading_32ScreenCode.GDPlayObjects2= [];
+gdjs.Loading_32ScreenCode.GDBackground_9595loadingObjects1= [];
+gdjs.Loading_32ScreenCode.GDBackground_9595loadingObjects2= [];
 gdjs.Loading_32ScreenCode.GDTransitionPainterObjects1= [];
 gdjs.Loading_32ScreenCode.GDTransitionPainterObjects2= [];
 gdjs.Loading_32ScreenCode.GDPlayerObjects1= [];
@@ -100,18 +104,18 @@ gdjs.Loading_32ScreenCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("LoadingCompleteButton"), gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Play"), gdjs.Loading_32ScreenCode.GDPlayObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length;i<l;++i) {
-    if ( gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.Loading_32ScreenCode.GDPlayObjects1.length;i<l;++i) {
+    if ( gdjs.Loading_32ScreenCode.GDPlayObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1[k] = gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1[i];
+        gdjs.Loading_32ScreenCode.GDPlayObjects1[k] = gdjs.Loading_32ScreenCode.GDPlayObjects1[i];
         ++k;
     }
 }
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length = k;
+gdjs.Loading_32ScreenCode.GDPlayObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
 }}
@@ -126,8 +130,12 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects2.length = 0;
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length = 0;
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCapy_9595loadingObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCapy_9595loadingObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDBackground_9595loadingObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDBackground_9595loadingObjects2.length = 0;
 gdjs.Loading_32ScreenCode.GDTransitionPainterObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDTransitionPainterObjects2.length = 0;
 gdjs.Loading_32ScreenCode.GDPlayerObjects1.length = 0;
@@ -222,8 +230,12 @@ gdjs.Loading_32ScreenCode.GDItemUIIconObjects2.length = 0;
 gdjs.Loading_32ScreenCode.eventsList0(runtimeScene);
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects2.length = 0;
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects1.length = 0;
-gdjs.Loading_32ScreenCode.GDLoadingCompleteButtonObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCapy_9595loadingObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCapy_9595loadingObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDPlayObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDBackground_9595loadingObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDBackground_9595loadingObjects2.length = 0;
 gdjs.Loading_32ScreenCode.GDTransitionPainterObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDTransitionPainterObjects2.length = 0;
 gdjs.Loading_32ScreenCode.GDPlayerObjects1.length = 0;
