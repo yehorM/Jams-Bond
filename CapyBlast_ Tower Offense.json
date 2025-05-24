@@ -60,7 +60,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.5,
-      "backgroundImageResourceName": "logo capy loading.png2",
+      "backgroundImageResourceName": "logo capy loading2.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.5,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -1273,6 +1273,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "logo capy loading.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "logo capy loading2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo capy loading2.png",
         "smoothed": true,
         "userAdded": false
       }
