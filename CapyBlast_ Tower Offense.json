@@ -58,10 +58,10 @@
       "ios-icon-87": ""
     },
     "loadingScreen": {
-      "backgroundColor": 16777215,
+      "backgroundColor": 0,
       "backgroundFadeInDuration": 0.5,
-      "backgroundImageResourceName": "logo capy loading.png",
-      "gdevelopLogoStyle": "light-colored",
+      "backgroundImageResourceName": "logo capy loading.png2",
+      "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.5,
       "logoAndProgressLogoFadeInDelay": 0,
       "minDuration": 2,
@@ -1265,6 +1265,14 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"logo capy loading.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "logo capy loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/logo capy loading.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "logo capy loading.png2",
         "smoothed": true,
         "userAdded": false
       }
