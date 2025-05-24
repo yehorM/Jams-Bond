@@ -1,8 +1,8 @@
 {
-  "name": "CapyBlast: Tower Offense - Copy",
-  "short_name": "CapyBlast: Tower Offense - Copy",
+  "name": "CapyBlast: Tower Offense",
+  "short_name": "CapyBlast: Tower Offense",
   "id": "com.example.gamename",
-  "description": "",
+  "description": "Blast your way through hordes of vicious monsters, playing as the greatest protagonist ever: A capybara with a fancy hat.",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",

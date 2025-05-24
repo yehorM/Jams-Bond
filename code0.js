@@ -98,6 +98,16 @@ gdjs.Loading_32ScreenCode.GDItem_9595CollectableObjects1= [];
 gdjs.Loading_32ScreenCode.GDItem_9595CollectableObjects2= [];
 gdjs.Loading_32ScreenCode.GDItemUIIconObjects1= [];
 gdjs.Loading_32ScreenCode.GDItemUIIconObjects2= [];
+gdjs.Loading_32ScreenCode.GDSpellItem_9595FireObjects1= [];
+gdjs.Loading_32ScreenCode.GDSpellItem_9595FireObjects2= [];
+gdjs.Loading_32ScreenCode.GDUI_9595SpellIcon_9595FireObjects1= [];
+gdjs.Loading_32ScreenCode.GDUI_9595SpellIcon_9595FireObjects2= [];
+gdjs.Loading_32ScreenCode.GDCrateObjects1= [];
+gdjs.Loading_32ScreenCode.GDCrateObjects2= [];
+gdjs.Loading_32ScreenCode.GDSignpost2Objects1= [];
+gdjs.Loading_32ScreenCode.GDSignpost2Objects2= [];
+gdjs.Loading_32ScreenCode.GDTutorialText2Objects1= [];
+gdjs.Loading_32ScreenCode.GDTutorialText2Objects2= [];
 
 
 gdjs.Loading_32ScreenCode.eventsList0 = function(runtimeScene) {
@@ -118,6 +128,7 @@ for (var i = 0, k = 0, l = gdjs.Loading_32ScreenCode.GDPlayObjects1.length;i<l;+
 gdjs.Loading_32ScreenCode.GDPlayObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "Click_general.ogg", false, 100, 1);
 }}
 
 }
@@ -226,6 +237,16 @@ gdjs.Loading_32ScreenCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Loading_32ScreenCode.GDItemUIIconObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDItemUIIconObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellItem_9595FireObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellItem_9595FireObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDUI_9595SpellIcon_9595FireObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDUI_9595SpellIcon_9595FireObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCrateObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCrateObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSignpost2Objects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSignpost2Objects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTutorialText2Objects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTutorialText2Objects2.length = 0;
 
 gdjs.Loading_32ScreenCode.eventsList0(runtimeScene);
 gdjs.Loading_32ScreenCode.GDLoading_9595Complete_9595TextObjects1.length = 0;
@@ -326,6 +347,16 @@ gdjs.Loading_32ScreenCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Loading_32ScreenCode.GDItemUIIconObjects1.length = 0;
 gdjs.Loading_32ScreenCode.GDItemUIIconObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellItem_9595FireObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSpellItem_9595FireObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDUI_9595SpellIcon_9595FireObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDUI_9595SpellIcon_9595FireObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDCrateObjects1.length = 0;
+gdjs.Loading_32ScreenCode.GDCrateObjects2.length = 0;
+gdjs.Loading_32ScreenCode.GDSignpost2Objects1.length = 0;
+gdjs.Loading_32ScreenCode.GDSignpost2Objects2.length = 0;
+gdjs.Loading_32ScreenCode.GDTutorialText2Objects1.length = 0;
+gdjs.Loading_32ScreenCode.GDTutorialText2Objects2.length = 0;
 
 
 return;

@@ -96,6 +96,16 @@ gdjs.Thanks_32For_32PlayingCode.GDItem_9595CollectableObjects1= [];
 gdjs.Thanks_32For_32PlayingCode.GDItem_9595CollectableObjects2= [];
 gdjs.Thanks_32For_32PlayingCode.GDItemUIIconObjects1= [];
 gdjs.Thanks_32For_32PlayingCode.GDItemUIIconObjects2= [];
+gdjs.Thanks_32For_32PlayingCode.GDSpellItem_9595FireObjects1= [];
+gdjs.Thanks_32For_32PlayingCode.GDSpellItem_9595FireObjects2= [];
+gdjs.Thanks_32For_32PlayingCode.GDUI_9595SpellIcon_9595FireObjects1= [];
+gdjs.Thanks_32For_32PlayingCode.GDUI_9595SpellIcon_9595FireObjects2= [];
+gdjs.Thanks_32For_32PlayingCode.GDCrateObjects1= [];
+gdjs.Thanks_32For_32PlayingCode.GDCrateObjects2= [];
+gdjs.Thanks_32For_32PlayingCode.GDSignpost2Objects1= [];
+gdjs.Thanks_32For_32PlayingCode.GDSignpost2Objects2= [];
+gdjs.Thanks_32For_32PlayingCode.GDTutorialText2Objects1= [];
+gdjs.Thanks_32For_32PlayingCode.GDTutorialText2Objects2= [];
 
 
 gdjs.Thanks_32For_32PlayingCode.eventsList0 = function(runtimeScene) {
@@ -255,6 +265,16 @@ gdjs.Thanks_32For_32PlayingCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Thanks_32For_32PlayingCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Thanks_32For_32PlayingCode.GDItemUIIconObjects1.length = 0;
 gdjs.Thanks_32For_32PlayingCode.GDItemUIIconObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSpellItem_9595FireObjects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSpellItem_9595FireObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDUI_9595SpellIcon_9595FireObjects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDUI_9595SpellIcon_9595FireObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDCrateObjects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDCrateObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSignpost2Objects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSignpost2Objects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDTutorialText2Objects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDTutorialText2Objects2.length = 0;
 
 gdjs.Thanks_32For_32PlayingCode.eventsList1(runtimeScene);
 gdjs.Thanks_32For_32PlayingCode.GDMenuPicObjects1.length = 0;
@@ -353,6 +373,16 @@ gdjs.Thanks_32For_32PlayingCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Thanks_32For_32PlayingCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Thanks_32For_32PlayingCode.GDItemUIIconObjects1.length = 0;
 gdjs.Thanks_32For_32PlayingCode.GDItemUIIconObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSpellItem_9595FireObjects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSpellItem_9595FireObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDUI_9595SpellIcon_9595FireObjects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDUI_9595SpellIcon_9595FireObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDCrateObjects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDCrateObjects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSignpost2Objects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDSignpost2Objects2.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDTutorialText2Objects1.length = 0;
+gdjs.Thanks_32For_32PlayingCode.GDTutorialText2Objects2.length = 0;
 
 
 return;

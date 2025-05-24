@@ -96,6 +96,16 @@ gdjs.Game_32OverCode.GDItem_9595CollectableObjects1= [];
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects2= [];
 gdjs.Game_32OverCode.GDItemUIIconObjects1= [];
 gdjs.Game_32OverCode.GDItemUIIconObjects2= [];
+gdjs.Game_32OverCode.GDSpellItem_9595FireObjects1= [];
+gdjs.Game_32OverCode.GDSpellItem_9595FireObjects2= [];
+gdjs.Game_32OverCode.GDUI_9595SpellIcon_9595FireObjects1= [];
+gdjs.Game_32OverCode.GDUI_9595SpellIcon_9595FireObjects2= [];
+gdjs.Game_32OverCode.GDCrateObjects1= [];
+gdjs.Game_32OverCode.GDCrateObjects2= [];
+gdjs.Game_32OverCode.GDSignpost2Objects1= [];
+gdjs.Game_32OverCode.GDSignpost2Objects2= [];
+gdjs.Game_32OverCode.GDTutorialText2Objects1= [];
+gdjs.Game_32OverCode.GDTutorialText2Objects2= [];
 
 
 gdjs.Game_32OverCode.eventsList0 = function(runtimeScene) {
@@ -256,6 +266,16 @@ gdjs.Game_32OverCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Game_32OverCode.GDItemUIIconObjects1.length = 0;
 gdjs.Game_32OverCode.GDItemUIIconObjects2.length = 0;
+gdjs.Game_32OverCode.GDSpellItem_9595FireObjects1.length = 0;
+gdjs.Game_32OverCode.GDSpellItem_9595FireObjects2.length = 0;
+gdjs.Game_32OverCode.GDUI_9595SpellIcon_9595FireObjects1.length = 0;
+gdjs.Game_32OverCode.GDUI_9595SpellIcon_9595FireObjects2.length = 0;
+gdjs.Game_32OverCode.GDCrateObjects1.length = 0;
+gdjs.Game_32OverCode.GDCrateObjects2.length = 0;
+gdjs.Game_32OverCode.GDSignpost2Objects1.length = 0;
+gdjs.Game_32OverCode.GDSignpost2Objects2.length = 0;
+gdjs.Game_32OverCode.GDTutorialText2Objects1.length = 0;
+gdjs.Game_32OverCode.GDTutorialText2Objects2.length = 0;
 
 gdjs.Game_32OverCode.eventsList1(runtimeScene);
 gdjs.Game_32OverCode.GDNewSpriteObjects1.length = 0;
@@ -354,6 +374,16 @@ gdjs.Game_32OverCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Game_32OverCode.GDItemUIIconObjects1.length = 0;
 gdjs.Game_32OverCode.GDItemUIIconObjects2.length = 0;
+gdjs.Game_32OverCode.GDSpellItem_9595FireObjects1.length = 0;
+gdjs.Game_32OverCode.GDSpellItem_9595FireObjects2.length = 0;
+gdjs.Game_32OverCode.GDUI_9595SpellIcon_9595FireObjects1.length = 0;
+gdjs.Game_32OverCode.GDUI_9595SpellIcon_9595FireObjects2.length = 0;
+gdjs.Game_32OverCode.GDCrateObjects1.length = 0;
+gdjs.Game_32OverCode.GDCrateObjects2.length = 0;
+gdjs.Game_32OverCode.GDSignpost2Objects1.length = 0;
+gdjs.Game_32OverCode.GDSignpost2Objects2.length = 0;
+gdjs.Game_32OverCode.GDTutorialText2Objects1.length = 0;
+gdjs.Game_32OverCode.GDTutorialText2Objects2.length = 0;
 
 
 return;
