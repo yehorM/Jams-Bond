@@ -1621,6 +1621,76 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Capybara Menu Theme.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Capybara Menu Theme.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Spell_spikes2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Spell_spikes2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Footstep_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Footstep_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Footstep_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Footstep_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Footstep_3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Footstep_3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Footstep_4.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Footstep_4.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Footstep_5.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Footstep_5.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9311,7 +9381,7 @@
               },
               "parameters": [
                 "",
-                "assets\\ditty.mp3",
+                "Capybara Menu Theme.ogg",
                 "1",
                 "yes",
                 "75",
@@ -10348,6 +10418,11 @@
           "name": "HasSpellFire",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "RandomFootstep",
+          "type": "number",
+          "value": 1
         }
       ],
       "instances": [
@@ -13304,6 +13379,15 @@
                 "",
                 "\"Options Layer\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"FootstepTimer\""
+              ]
             }
           ]
         },
@@ -13340,6 +13424,12 @@
                 "",
                 "\"e\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -13415,6 +13505,12 @@
                 "",
                 "\"e\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -15621,6 +15717,210 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player movements - enhancement to extension",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"FootstepTimer\"",
+                ">",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RandomFootstep",
+                "=",
+                "RandomInRange(1, 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"FootstepTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RandomFootstep",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Footstep_1.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RandomFootstep",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Footstep_2.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RandomFootstep",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Footstep_3.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RandomFootstep",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Footstep_4.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RandomFootstep",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Footstep_5.ogg",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -17360,6 +17660,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spellcasting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17608,7 +17909,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets\\knifesound.mp3",
+                            "Spell_spikes2.ogg",
                             "",
                             "",
                             ""
@@ -17833,6 +18134,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower Building",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18170,9 +18472,29 @@
                     "TowerSite.CenterY()",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "\"FireRate\"",
+                    ">",
+                    "1"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "\"FireRate\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "FireBullet::FireBullet::SetBulletLayer"
@@ -18282,9 +18604,29 @@
                     "TowerSite.CenterY()",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "\"FireRate\"",
+                    ">",
+                    "1"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "\"FireRate\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "FireBullet::FireBullet::SetBulletLayer"
@@ -19169,6 +19511,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Damage & Winstate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20031,6 +20374,15 @@
                     "TowerKillCount",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "TowerSite",
+                    "\"FireRate\""
                   ]
                 }
               ],
