@@ -138,9 +138,9 @@ gdjs.Main_32MenuCode.GDEscHintObjects3= [];
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1= [];
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects2= [];
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects3= [];
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1= [];
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2= [];
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects3= [];
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1= [];
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2= [];
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects3= [];
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects1= [];
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects2= [];
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects3= [];
@@ -162,6 +162,15 @@ gdjs.Main_32MenuCode.GDSignpost2Objects3= [];
 gdjs.Main_32MenuCode.GDTutorialText2Objects1= [];
 gdjs.Main_32MenuCode.GDTutorialText2Objects2= [];
 gdjs.Main_32MenuCode.GDTutorialText2Objects3= [];
+gdjs.Main_32MenuCode.GDCrate2Objects1= [];
+gdjs.Main_32MenuCode.GDCrate2Objects2= [];
+gdjs.Main_32MenuCode.GDCrate2Objects3= [];
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1= [];
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects2= [];
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects3= [];
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1= [];
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2= [];
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects3= [];
 
 
 gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDStartButtonObjects1Objects = Hashtable.newFrom({"StartButton": gdjs.Main_32MenuCode.GDStartButtonObjects1});
@@ -185,23 +194,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(6).getAsBoolean();
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.Main_32MenuCode.GDBackButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("OptionsBackground"), gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2);
-gdjs.copyArray(runtimeScene.getObjects("OptionsTitle"), gdjs.Main_32MenuCode.GDOptionsTitleObjects2);
-gdjs.copyArray(runtimeScene.getObjects("ToggleMusicSlider"), gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Options Layer");
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2[i].hide();
-}
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsTitleObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDOptionsTitleObjects2[i].hide();
-}
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2[i].hide();
-}
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDBackButtonObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDBackButtonObjects2[i].hide();
-}
 }}
 
 }
@@ -216,29 +209,31 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.Main_32MenuCode.GDBackButtonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("MusicVolumeSlider"), gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2);
 gdjs.copyArray(runtimeScene.getObjects("OptionsBackground"), gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2);
 gdjs.copyArray(runtimeScene.getObjects("OptionsTitle"), gdjs.Main_32MenuCode.GDOptionsTitleObjects2);
-gdjs.copyArray(runtimeScene.getObjects("SFXVolumeLabel"), gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects2);
-gdjs.copyArray(runtimeScene.getObjects("ToggleMusicSlider"), gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2);
+gdjs.copyArray(runtimeScene.getObjects("SFXVolumeSlider"), gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Options Layer");
-}{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2.length !== 0 ? gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2[0] : null), true, "Options Layer", 0);
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDOptionsBackgroundObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsTitleObjects2.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDOptionsTitleObjects2[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDBackButtonObjects2.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDBackButtonObjects2[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2[i].SetValue(gdjs.evtTools.sound.getGlobalVolume(runtimeScene), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects2.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects2[i].getBehavior("Text").setText("SFX Volume: " + gdjs.evtTools.common.toString((( gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2.length === 0 ) ? 0 :gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))) + "%");
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -266,7 +261,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Capybara Menu Theme.ogg", 1, true, 75, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Capybara Menu Theme.ogg", 1, true, runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber(), 1);
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Options Layer");
 }}
 
@@ -287,7 +282,7 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level 1", false);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "Click_play.ogg", false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Click_play.ogg", 2, false, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), 1);
 }}
 
 }
@@ -306,7 +301,7 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "Click_general2.ogg", false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Click_general2.ogg", 2, false, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), 1);
 }}
 
 }
@@ -325,29 +320,40 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.Main_32MenuCode.GDBackButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("MusicVolumeLabel"), gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1);
+gdjs.copyArray(runtimeScene.getObjects("MusicVolumeSlider"), gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1);
 gdjs.copyArray(runtimeScene.getObjects("OptionsBackground"), gdjs.Main_32MenuCode.GDOptionsBackgroundObjects1);
 gdjs.copyArray(runtimeScene.getObjects("OptionsTitle"), gdjs.Main_32MenuCode.GDOptionsTitleObjects1);
 gdjs.copyArray(runtimeScene.getObjects("SFXVolumeLabel"), gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1);
-gdjs.copyArray(runtimeScene.getObjects("ToggleMusicSlider"), gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1);
+gdjs.copyArray(runtimeScene.getObjects("SFXVolumeSlider"), gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Options Layer");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "Click_general2.ogg", false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Click_general2.ogg", 2, false, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), 1);
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsBackgroundObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDOptionsBackgroundObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsTitleObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDOptionsTitleObjects1[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[i].hide(false);
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDBackButtonObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDBackButtonObjects1[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[i].SetValue(gdjs.evtTools.sound.getGlobalVolume(runtimeScene), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1[i].getBehavior("Text").setText("Music Volume: " + gdjs.evtTools.common.toString(runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber()) + "%");
 }
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1[i].getBehavior("Text").setText("SFX Volume: " + gdjs.evtTools.common.toString((( gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length === 0 ) ? 0 :gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))) + "%");
+    gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1[i].getBehavior("Text").setText("SFX Volume: " + gdjs.evtTools.common.toString(runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber()) + "%");
 }
 }{gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6));
 }}
@@ -364,7 +370,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDOptionsButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17502500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19070316);
 }
 }
 if (isConditionTrue_0) {
@@ -372,7 +378,7 @@ if (isConditionTrue_0) {
 {for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsButtonObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDOptionsButtonObjects1[i].getBehavior("Animation").setAnimationIndex(1);
 }
-}{gdjs.evtTools.sound.playSound(runtimeScene, "Hover.ogg", false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "HoverShort.ogg", 2, false, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), 1);
 }}
 
 }
@@ -404,7 +410,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDStartButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17505468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19074132);
 }
 }
 if (isConditionTrue_0) {
@@ -412,7 +418,7 @@ if (isConditionTrue_0) {
 {for(var i = 0, len = gdjs.Main_32MenuCode.GDStartButtonObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDStartButtonObjects1[i].getBehavior("Animation").setAnimationIndex(1);
 }
-}{gdjs.evtTools.sound.playSound(runtimeScene, "Hover.ogg", false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "HoverShort.ogg", 2, false, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), 1);
 }}
 
 }
@@ -444,7 +450,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDExitButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17508044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19062724);
 }
 }
 if (isConditionTrue_0) {
@@ -452,7 +458,7 @@ if (isConditionTrue_0) {
 {for(var i = 0, len = gdjs.Main_32MenuCode.GDExitButtonObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDExitButtonObjects1[i].getBehavior("Animation").setAnimationIndex(1);
 }
-}{gdjs.evtTools.sound.playSound(runtimeScene, "Hover.ogg", false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "HoverShort.ogg", 2, false, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber(), 1);
 }}
 
 }
@@ -500,7 +506,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17510852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19066172);
 }
 }
 if (isConditionTrue_0) {
@@ -524,23 +530,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.Main_32MenuCode.GDBackButtonObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("OptionsBackground"), gdjs.Main_32MenuCode.GDOptionsBackgroundObjects1);
-gdjs.copyArray(runtimeScene.getObjects("OptionsTitle"), gdjs.Main_32MenuCode.GDOptionsTitleObjects1);
-gdjs.copyArray(runtimeScene.getObjects("ToggleMusicSlider"), gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Options Layer");
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsBackgroundObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDOptionsBackgroundObjects1[i].hide();
-}
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDOptionsTitleObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDOptionsTitleObjects1[i].hide();
-}
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[i].hide();
-}
-}{for(var i = 0, len = gdjs.Main_32MenuCode.GDBackButtonObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDBackButtonObjects1[i].hide();
-}
 }{runtimeScene.getGame().getVariables().getFromIndex(6).setBoolean(false);
 }}
 
@@ -549,18 +539,18 @@ gdjs.copyArray(runtimeScene.getObjects("ToggleMusicSlider"), gdjs.Main_32MenuCod
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ToggleMusicSlider"), gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1);
+gdjs.copyArray(runtimeScene.getObjects("SFXVolumeSlider"), gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length;i<l;++i) {
-    if ( gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[i].IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length;i<l;++i) {
+    if ( gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1[i].IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[k] = gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[i];
+        gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1[k] = gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1[i];
         ++k;
     }
 }
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length = k;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(6).getAsBoolean();
@@ -568,10 +558,43 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SFXVolumeLabel"), gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1);
-/* Reuse gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1 */
-{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, (( gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length === 0 ) ? 0 :gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+/* Reuse gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber((( gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length === 0 ) ? 0 :gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 2, runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber());
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1.length ;i < len;++i) {
-    gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1[i].getBehavior("Text").setText("SFX Volume: " + gdjs.evtTools.common.toString((( gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length === 0 ) ? 0 :gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))) + "%");
+    gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1[i].getBehavior("Text").setText("SFX Volume: " + gdjs.evtTools.common.toString(runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber()) + "%");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("MusicVolumeSlider"), gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length;i<l;++i) {
+    if ( gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1[i].IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1[k] = gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1[i];
+        ++k;
+    }
+}
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(6).getAsBoolean();
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("MusicVolumeLabel"), gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1);
+/* Reuse gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber((( gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length === 0 ) ? 0 :gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.sound.setMusicOnChannelVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber());
+}{for(var i = 0, len = gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1[i].getBehavior("Text").setText("Music Volume: " + gdjs.evtTools.common.toString(runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber()) + "%");
 }
 }}
 
@@ -731,9 +754,9 @@ gdjs.Main_32MenuCode.GDEscHintObjects3.length = 0;
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1.length = 0;
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects2.length = 0;
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects3.length = 0;
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length = 0;
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2.length = 0;
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects3.length = 0;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length = 0;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2.length = 0;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects3.length = 0;
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects3.length = 0;
@@ -755,6 +778,15 @@ gdjs.Main_32MenuCode.GDSignpost2Objects3.length = 0;
 gdjs.Main_32MenuCode.GDTutorialText2Objects1.length = 0;
 gdjs.Main_32MenuCode.GDTutorialText2Objects2.length = 0;
 gdjs.Main_32MenuCode.GDTutorialText2Objects3.length = 0;
+gdjs.Main_32MenuCode.GDCrate2Objects1.length = 0;
+gdjs.Main_32MenuCode.GDCrate2Objects2.length = 0;
+gdjs.Main_32MenuCode.GDCrate2Objects3.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects2.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects3.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects3.length = 0;
 
 gdjs.Main_32MenuCode.eventsList2(runtimeScene);
 gdjs.Main_32MenuCode.GDMenuPicObjects1.length = 0;
@@ -895,9 +927,9 @@ gdjs.Main_32MenuCode.GDEscHintObjects3.length = 0;
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects1.length = 0;
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects2.length = 0;
 gdjs.Main_32MenuCode.GDSFXVolumeLabelObjects3.length = 0;
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects1.length = 0;
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects2.length = 0;
-gdjs.Main_32MenuCode.GDToggleMusicSliderObjects3.length = 0;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects1.length = 0;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects2.length = 0;
+gdjs.Main_32MenuCode.GDSFXVolumeSliderObjects3.length = 0;
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Main_32MenuCode.GDItem_9595CollectableObjects3.length = 0;
@@ -919,6 +951,15 @@ gdjs.Main_32MenuCode.GDSignpost2Objects3.length = 0;
 gdjs.Main_32MenuCode.GDTutorialText2Objects1.length = 0;
 gdjs.Main_32MenuCode.GDTutorialText2Objects2.length = 0;
 gdjs.Main_32MenuCode.GDTutorialText2Objects3.length = 0;
+gdjs.Main_32MenuCode.GDCrate2Objects1.length = 0;
+gdjs.Main_32MenuCode.GDCrate2Objects2.length = 0;
+gdjs.Main_32MenuCode.GDCrate2Objects3.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects1.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects2.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeLabelObjects3.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects1.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects2.length = 0;
+gdjs.Main_32MenuCode.GDMusicVolumeSliderObjects3.length = 0;
 
 
 return;

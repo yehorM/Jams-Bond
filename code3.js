@@ -1,11 +1,11 @@
 gdjs.Game_32OverCode = {};
 gdjs.Game_32OverCode.localVariables = [];
-gdjs.Game_32OverCode.GDNewSpriteObjects1= [];
-gdjs.Game_32OverCode.GDNewSpriteObjects2= [];
 gdjs.Game_32OverCode.GDNewTextObjects1= [];
 gdjs.Game_32OverCode.GDNewTextObjects2= [];
 gdjs.Game_32OverCode.GDGreenButtonObjects1= [];
 gdjs.Game_32OverCode.GDGreenButtonObjects2= [];
+gdjs.Game_32OverCode.GDGame_9595Over_9595background_9595imageObjects1= [];
+gdjs.Game_32OverCode.GDGame_9595Over_9595background_9595imageObjects2= [];
 gdjs.Game_32OverCode.GDTransitionPainterObjects1= [];
 gdjs.Game_32OverCode.GDTransitionPainterObjects2= [];
 gdjs.Game_32OverCode.GDPlayerObjects1= [];
@@ -90,8 +90,8 @@ gdjs.Game_32OverCode.GDEscHintObjects1= [];
 gdjs.Game_32OverCode.GDEscHintObjects2= [];
 gdjs.Game_32OverCode.GDSFXVolumeLabelObjects1= [];
 gdjs.Game_32OverCode.GDSFXVolumeLabelObjects2= [];
-gdjs.Game_32OverCode.GDToggleMusicSliderObjects1= [];
-gdjs.Game_32OverCode.GDToggleMusicSliderObjects2= [];
+gdjs.Game_32OverCode.GDSFXVolumeSliderObjects1= [];
+gdjs.Game_32OverCode.GDSFXVolumeSliderObjects2= [];
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects1= [];
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects2= [];
 gdjs.Game_32OverCode.GDItemUIIconObjects1= [];
@@ -106,6 +106,12 @@ gdjs.Game_32OverCode.GDSignpost2Objects1= [];
 gdjs.Game_32OverCode.GDSignpost2Objects2= [];
 gdjs.Game_32OverCode.GDTutorialText2Objects1= [];
 gdjs.Game_32OverCode.GDTutorialText2Objects2= [];
+gdjs.Game_32OverCode.GDCrate2Objects1= [];
+gdjs.Game_32OverCode.GDCrate2Objects2= [];
+gdjs.Game_32OverCode.GDMusicVolumeLabelObjects1= [];
+gdjs.Game_32OverCode.GDMusicVolumeLabelObjects2= [];
+gdjs.Game_32OverCode.GDMusicVolumeSliderObjects1= [];
+gdjs.Game_32OverCode.GDMusicVolumeSliderObjects2= [];
 
 
 gdjs.Game_32OverCode.eventsList0 = function(runtimeScene) {
@@ -134,7 +140,7 @@ gdjs.copyArray(runtimeScene.getObjects("TransitionPainter"), gdjs.Game_32OverCod
 {for(var i = 0, len = gdjs.Game_32OverCode.GDTransitionPainterObjects1.length ;i < len;++i) {
     gdjs.Game_32OverCode.GDTransitionPainterObjects1[i].getBehavior("FlashTransitionPainter").PaintEffect("0;0;0", 0.4, "Flash", "Backward", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\ditty.mp3", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\ditty.mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber(), 1);
 }}
 
 }
@@ -170,12 +176,12 @@ gdjs.Game_32OverCode.eventsList0(runtimeScene);} //End of subevents
 gdjs.Game_32OverCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.Game_32OverCode.GDNewSpriteObjects1.length = 0;
-gdjs.Game_32OverCode.GDNewSpriteObjects2.length = 0;
 gdjs.Game_32OverCode.GDNewTextObjects1.length = 0;
 gdjs.Game_32OverCode.GDNewTextObjects2.length = 0;
 gdjs.Game_32OverCode.GDGreenButtonObjects1.length = 0;
 gdjs.Game_32OverCode.GDGreenButtonObjects2.length = 0;
+gdjs.Game_32OverCode.GDGame_9595Over_9595background_9595imageObjects1.length = 0;
+gdjs.Game_32OverCode.GDGame_9595Over_9595background_9595imageObjects2.length = 0;
 gdjs.Game_32OverCode.GDTransitionPainterObjects1.length = 0;
 gdjs.Game_32OverCode.GDTransitionPainterObjects2.length = 0;
 gdjs.Game_32OverCode.GDPlayerObjects1.length = 0;
@@ -260,8 +266,8 @@ gdjs.Game_32OverCode.GDEscHintObjects1.length = 0;
 gdjs.Game_32OverCode.GDEscHintObjects2.length = 0;
 gdjs.Game_32OverCode.GDSFXVolumeLabelObjects1.length = 0;
 gdjs.Game_32OverCode.GDSFXVolumeLabelObjects2.length = 0;
-gdjs.Game_32OverCode.GDToggleMusicSliderObjects1.length = 0;
-gdjs.Game_32OverCode.GDToggleMusicSliderObjects2.length = 0;
+gdjs.Game_32OverCode.GDSFXVolumeSliderObjects1.length = 0;
+gdjs.Game_32OverCode.GDSFXVolumeSliderObjects2.length = 0;
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Game_32OverCode.GDItemUIIconObjects1.length = 0;
@@ -276,14 +282,20 @@ gdjs.Game_32OverCode.GDSignpost2Objects1.length = 0;
 gdjs.Game_32OverCode.GDSignpost2Objects2.length = 0;
 gdjs.Game_32OverCode.GDTutorialText2Objects1.length = 0;
 gdjs.Game_32OverCode.GDTutorialText2Objects2.length = 0;
+gdjs.Game_32OverCode.GDCrate2Objects1.length = 0;
+gdjs.Game_32OverCode.GDCrate2Objects2.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeLabelObjects1.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeLabelObjects2.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeSliderObjects1.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeSliderObjects2.length = 0;
 
 gdjs.Game_32OverCode.eventsList1(runtimeScene);
-gdjs.Game_32OverCode.GDNewSpriteObjects1.length = 0;
-gdjs.Game_32OverCode.GDNewSpriteObjects2.length = 0;
 gdjs.Game_32OverCode.GDNewTextObjects1.length = 0;
 gdjs.Game_32OverCode.GDNewTextObjects2.length = 0;
 gdjs.Game_32OverCode.GDGreenButtonObjects1.length = 0;
 gdjs.Game_32OverCode.GDGreenButtonObjects2.length = 0;
+gdjs.Game_32OverCode.GDGame_9595Over_9595background_9595imageObjects1.length = 0;
+gdjs.Game_32OverCode.GDGame_9595Over_9595background_9595imageObjects2.length = 0;
 gdjs.Game_32OverCode.GDTransitionPainterObjects1.length = 0;
 gdjs.Game_32OverCode.GDTransitionPainterObjects2.length = 0;
 gdjs.Game_32OverCode.GDPlayerObjects1.length = 0;
@@ -368,8 +380,8 @@ gdjs.Game_32OverCode.GDEscHintObjects1.length = 0;
 gdjs.Game_32OverCode.GDEscHintObjects2.length = 0;
 gdjs.Game_32OverCode.GDSFXVolumeLabelObjects1.length = 0;
 gdjs.Game_32OverCode.GDSFXVolumeLabelObjects2.length = 0;
-gdjs.Game_32OverCode.GDToggleMusicSliderObjects1.length = 0;
-gdjs.Game_32OverCode.GDToggleMusicSliderObjects2.length = 0;
+gdjs.Game_32OverCode.GDSFXVolumeSliderObjects1.length = 0;
+gdjs.Game_32OverCode.GDSFXVolumeSliderObjects2.length = 0;
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects1.length = 0;
 gdjs.Game_32OverCode.GDItem_9595CollectableObjects2.length = 0;
 gdjs.Game_32OverCode.GDItemUIIconObjects1.length = 0;
@@ -384,6 +396,12 @@ gdjs.Game_32OverCode.GDSignpost2Objects1.length = 0;
 gdjs.Game_32OverCode.GDSignpost2Objects2.length = 0;
 gdjs.Game_32OverCode.GDTutorialText2Objects1.length = 0;
 gdjs.Game_32OverCode.GDTutorialText2Objects2.length = 0;
+gdjs.Game_32OverCode.GDCrate2Objects1.length = 0;
+gdjs.Game_32OverCode.GDCrate2Objects2.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeLabelObjects1.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeLabelObjects2.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeSliderObjects1.length = 0;
+gdjs.Game_32OverCode.GDMusicVolumeSliderObjects2.length = 0;
 
 
 return;
