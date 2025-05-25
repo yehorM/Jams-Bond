@@ -10538,7 +10538,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126539,
+        "zoomFactor": 0.5468750000000231,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12077,8 +12077,8 @@
           "name": "SpawningTargetKobold",
           "persistentUuid": "040af313-63e4-4b2b-b51e-f4af453886c9",
           "width": 0,
-          "x": 1675,
-          "y": 272,
+          "x": 1663,
+          "y": 224,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -12104,8 +12104,8 @@
           "name": "SpawningTargetKobold",
           "persistentUuid": "1fc411be-1dfe-405b-ae0b-0b720eabedf6",
           "width": 0,
-          "x": 2048,
-          "y": 431,
+          "x": 2007,
+          "y": 320,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -12131,8 +12131,8 @@
           "name": "SpawningTargetKobold",
           "persistentUuid": "e512c523-bac5-4ce4-814a-43f259cac7d1",
           "width": 0,
-          "x": 2075,
-          "y": 492,
+          "x": 2063,
+          "y": 439,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -13065,12 +13065,23 @@
           "name": "SpawningTargetArcher",
           "persistentUuid": "dc855fe6-ff8f-4af2-98bf-bdd8b8fd0a91",
           "width": 0,
-          "x": 2068,
-          "y": 568,
+          "x": 1962,
+          "y": 554,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "SingleSpawn",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "BattleID",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -15045,7 +15056,7 @@
               "parameters": [
                 "",
                 "Stone_attack.ogg",
-                "2",
+                "3",
                 "",
                 "SFXVolume",
                 ""
@@ -15090,7 +15101,7 @@
               "parameters": [
                 "",
                 "Stone_destruction.ogg",
-                "2",
+                "4",
                 "",
                 "SFXVolume",
                 ""
@@ -16854,7 +16865,7 @@
               "parameters": [
                 "",
                 "Level_end.ogg",
-                "2",
+                "5",
                 "",
                 "SFXVolume",
                 ""
@@ -17132,6 +17143,105 @@
                 "=",
                 "\"SFX Volume: \" + ToString(SFXVolume) + \"%\""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "4",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "5",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "6",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "7",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "8",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "9",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "10",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "11",
+                "=",
+                "SFXVolume"
+              ]
             }
           ]
         },
@@ -17237,7 +17347,7 @@
               "parameters": [
                 "",
                 "Crystal_collect.ogg",
-                "2",
+                "6",
                 "",
                 "SFXVolume",
                 ""
@@ -17475,7 +17585,7 @@
                   "parameters": [
                     "",
                     "Footstep_1.ogg",
-                    "2",
+                    "7",
                     "",
                     "SFXVolume",
                     ""
@@ -17505,7 +17615,7 @@
                   "parameters": [
                     "",
                     "Footstep_2.ogg",
-                    "2",
+                    "8",
                     "",
                     "SFXVolume",
                     ""
@@ -17535,7 +17645,7 @@
                   "parameters": [
                     "",
                     "Footstep_3.ogg",
-                    "2",
+                    "9",
                     "",
                     "SFXVolume",
                     ""
@@ -17565,7 +17675,7 @@
                   "parameters": [
                     "",
                     "Footstep_4.ogg",
-                    "2",
+                    "10",
                     "",
                     "SFXVolume",
                     ""
@@ -17595,7 +17705,7 @@
                   "parameters": [
                     "",
                     "Footstep_5.ogg",
-                    "2",
+                    "11",
                     "",
                     "SFXVolume",
                     ""
