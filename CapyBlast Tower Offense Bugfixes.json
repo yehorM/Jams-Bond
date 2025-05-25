@@ -1464,6 +1464,14 @@
         "name": "capy loading",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "game over screen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "game over screen.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7132,7 +7140,7 @@
     },
     {
       "assetStoreId": "d32eb2703c5acb4488d36fef28164ddf46d8f5b2f3f7a97fa11640cf8d1d91e9",
-      "name": "ToggleMusicSlider",
+      "name": "SFXVolumeSlider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variant": "",
       "variables": [],
@@ -7790,6 +7798,132 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MusicVolumeLabel",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Music Volume",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "155;81;81",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Music Volume",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "d32eb2703c5acb4488d36fef28164ddf46d8f5b2f3f7a97fa11640cf8d1d91e9",
+      "name": "MusicVolumeSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 3,
+        "BarRightPadding": 3,
+        "BarBottomPadding": 4,
+        "LabelMargin": 4
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 18,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Square Blue Slider Border.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 215
+        },
+        "FillBar": {
+          "bottomMargin": 1,
+          "height": 11,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "Square Blue Slider Fill Bar.png",
+          "tiled": false,
+          "topMargin": 1,
+          "width": 11
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 16,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 3,
+          "height": 21,
+          "leftMargin": 3,
+          "rightMargin": 3,
+          "texture": "Square Blue Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 21
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7819,7 +7953,10 @@
             "objectName": "OptionsBackground"
           },
           {
-            "objectName": "ToggleMusicSlider"
+            "objectName": "SFXVolumeSlider"
+          },
+          {
+            "objectName": "MusicVolumeSlider"
           },
           {
             "objectName": "OptionsTitle"
@@ -7832,6 +7969,9 @@
           },
           {
             "objectName": "SFXVolumeLabel"
+          },
+          {
+            "objectName": "MusicVolumeLabel"
           }
         ]
       },
@@ -8128,6 +8268,16 @@
       "name": "IsMenuOpen",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "MusicVolume",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "SFXVolume",
+      "type": "number",
+      "value": 100
     }
   ],
   "layouts": [
@@ -8800,8 +8950,8 @@
           "name": "SFXVolumeLabel",
           "persistentUuid": "2eb2b95f-c890-45f0-871f-8080977974ad",
           "width": 0,
-          "x": 421,
-          "y": 255,
+          "x": 362,
+          "y": 302,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -8814,11 +8964,11 @@
           "height": 21,
           "keepRatio": true,
           "layer": "Options Layer",
-          "name": "ToggleMusicSlider",
+          "name": "SFXVolumeSlider",
           "persistentUuid": "577cebdc-ce77-43c0-97b5-739ee91b1de2",
-          "width": 383,
-          "x": 351,
-          "y": 299,
+          "width": 376,
+          "x": 345,
+          "y": 340,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -8854,6 +9004,38 @@
           "x": 206,
           "y": -61,
           "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48.646900269541774,
+          "height": 21,
+          "layer": "Options Layer",
+          "name": "MusicVolumeSlider",
+          "persistentUuid": "4d7fb44d-429f-4ad7-81bc-46a3b9bbdec0",
+          "width": 376,
+          "x": 345,
+          "y": 218,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "MusicVolumeLabel",
+          "persistentUuid": "edff0a4e-f8f0-4611-8bbe-c6df271ad999",
+          "width": 0,
+          "x": 362,
+          "y": 180,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9288,7 +9470,7 @@
                 "Capybara Menu Theme.ogg",
                 "1",
                 "yes",
-                "75",
+                "MusicVolume",
                 ""
               ]
             },
@@ -9349,13 +9531,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Click_play.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -9396,13 +9579,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Click_general2.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -9444,13 +9628,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Click_general2.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             },
@@ -9477,7 +9662,16 @@
                 "value": "Montre"
               },
               "parameters": [
-                "ToggleMusicSlider",
+                "MusicVolumeSlider",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "SFXVolumeSlider",
                 ""
               ]
             },
@@ -9495,10 +9689,32 @@
                 "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
               },
               "parameters": [
-                "ToggleMusicSlider",
+                "SFXVolumeSlider",
                 "=",
-                "GlobalVolume()",
+                "SFXVolume",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "MusicVolumeSlider",
+                "=",
+                "MusicVolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicVolumeLabel",
+                "Text",
+                "=",
+                "\"Music Volume: \" + ToString(MusicVolume) + \"%\""
               ]
             },
             {
@@ -9509,7 +9725,7 @@
                 "SFXVolumeLabel",
                 "Text",
                 "=",
-                "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                "\"SFX Volume: \" + ToString(SFXVolume) + \"%\""
               ]
             },
             {
@@ -9559,13 +9775,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "HoverShort.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -9636,13 +9853,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "HoverShort.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -9713,13 +9931,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "HoverShort.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -9772,7 +9991,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9816,38 +10034,6 @@
                     "",
                     "\"Options Layer\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "OptionsBackground"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "OptionsTitle"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ToggleMusicSlider"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "BackButton"
-                  ]
                 }
               ]
             },
@@ -9877,18 +10063,6 @@
                 },
                 {
                   "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "OptionsBackground",
-                    "",
-                    "\"Options Layer\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -9910,7 +10084,16 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "ToggleMusicSlider",
+                    "MusicVolumeSlider",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SFXVolumeSlider",
                     ""
                   ]
                 },
@@ -9928,21 +10111,21 @@
                     "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
                   },
                   "parameters": [
-                    "ToggleMusicSlider",
+                    "SFXVolumeSlider",
                     "=",
-                    "GlobalVolume()",
+                    "SFXVolume",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
                   },
                   "parameters": [
-                    "SFXVolumeLabel",
-                    "Text",
+                    "MusicVolumeSlider",
                     "=",
-                    "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                    "MusicVolume",
+                    ""
                   ]
                 }
               ]
@@ -10001,38 +10184,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "OptionsBackground"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "OptionsTitle"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ToggleMusicSlider"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BackButton"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -10051,7 +10202,7 @@
                 "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
               },
               "parameters": [
-                "ToggleMusicSlider",
+                "SFXVolumeSlider",
                 "="
               ]
             },
@@ -10069,12 +10220,23 @@
           "actions": [
             {
               "type": {
-                "value": "ModGlobalVolume"
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SFXVolume",
+                "=",
+                "SFXVolumeSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
               },
               "parameters": [
                 "",
+                "2",
                 "=",
-                "ToggleMusicSlider.Value()"
+                "SFXVolume"
               ]
             },
             {
@@ -10085,7 +10247,65 @@
                 "SFXVolumeLabel",
                 "Text",
                 "=",
-                "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                "\"SFX Volume: \" + ToString(SFXVolume) + \"%\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicVolumeSlider",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MusicVolume",
+                "=",
+                "MusicVolumeSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "MusicVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicVolumeLabel",
+                "Text",
+                "=",
+                "\"Music Volume: \" + ToString(MusicVolume) + \"%\""
               ]
             }
           ]
@@ -12898,89 +13118,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 628,
-          "keepRatio": true,
-          "layer": "Options Layer",
-          "name": "OptionsBackground",
-          "persistentUuid": "df99ec89-39eb-411e-90db-2aa10b4d91b2",
-          "width": 665,
-          "x": 300,
-          "y": 57,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Options Layer",
-          "name": "OptionsTitle",
-          "persistentUuid": "4e94fc9e-2289-48a3-ad90-6522276736d0",
-          "width": 0,
-          "x": 545,
-          "y": 204,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 66,
-          "keepRatio": true,
-          "layer": "Options Layer",
-          "name": "BackButton",
-          "persistentUuid": "f09adb79-e2a6-40b8-a1fe-fddae3d07d7c",
-          "width": 260,
-          "x": 509,
-          "y": 554,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Options Layer",
-          "name": "SFXVolumeLabel",
-          "persistentUuid": "abc3cef6-be6c-4e3c-9823-cfe9a3bef1b6",
-          "width": 0,
-          "x": 507,
-          "y": 372,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 21,
-          "keepRatio": true,
-          "layer": "Options Layer",
-          "name": "ToggleMusicSlider",
-          "persistentUuid": "7353df74-25ff-4c86-9167-e3f6d61e4e8a",
-          "width": 383,
-          "x": 437,
-          "y": 416,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 64,
           "layer": "UI Layer",
           "name": "ItemUIIcon",
@@ -14184,6 +14321,121 @@
               "value": 3
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 628,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "OptionsBackground",
+          "persistentUuid": "cfbc18d5-653d-4f89-b4d2-034981fe913e",
+          "width": 665,
+          "x": 323,
+          "y": 40,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "OptionsTitle",
+          "persistentUuid": "7264c1a2-868e-432f-9319-58d2e081d5dd",
+          "width": 0,
+          "x": 576,
+          "y": 188,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48.646900269541774,
+          "height": 21,
+          "layer": "Options Layer",
+          "name": "MusicVolumeSlider",
+          "persistentUuid": "a5dc7b2e-fe18-44d4-953c-f9cd00e78564",
+          "width": 376,
+          "x": 462,
+          "y": 319,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "MusicVolumeLabel",
+          "persistentUuid": "901f1ffa-8f51-4888-946e-5f45e0b95369",
+          "width": 0,
+          "x": 479,
+          "y": 281,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "SFXVolumeLabel",
+          "persistentUuid": "0315d6c7-0ad2-4d57-ad34-ce27de8717c3",
+          "width": 0,
+          "x": 479,
+          "y": 403,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "SFXVolumeSlider",
+          "persistentUuid": "0be75157-e6c9-4049-900b-3af344cd6c87",
+          "width": 376,
+          "x": 462,
+          "y": 441,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 66,
+          "keepRatio": true,
+          "layer": "Options Layer",
+          "name": "BackButton",
+          "persistentUuid": "ba439c2c-ae38-40a3-8747-6ad9e5111512",
+          "width": 260,
+          "x": 540,
+          "y": 538,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14433,7 +14685,7 @@
                 "Capybara preBattle No Drum.ogg",
                 "1",
                 "yes",
-                "75",
+                "MusicVolume",
                 ""
               ]
             },
@@ -14514,13 +14766,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Click_sign.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             },
@@ -14615,13 +14868,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Click_sign.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -14751,13 +15005,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Stone_attack.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -14795,13 +15050,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Stone_destruction.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             },
@@ -15096,9 +15352,9 @@
               "parameters": [
                 "",
                 "Capybara preBattle.ogg",
-                "2",
+                "1",
                 "",
-                "75",
+                "MusicVolume",
                 ""
               ]
             },
@@ -16558,13 +16814,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Level_end.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             }
@@ -16625,38 +16882,6 @@
                     "",
                     "\"Options Layer\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "OptionsBackground"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "OptionsTitle"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ToggleMusicSlider"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "BackButton"
-                  ]
                 }
               ]
             },
@@ -16686,18 +16911,6 @@
                 },
                 {
                   "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "OptionsBackground",
-                    "",
-                    "\"Options Layer\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -16719,7 +16932,16 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "ToggleMusicSlider",
+                    "MusicVolumeSlider",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SFXVolumeSlider",
                     ""
                   ]
                 },
@@ -16737,21 +16959,21 @@
                     "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
                   },
                   "parameters": [
-                    "ToggleMusicSlider",
+                    "SFXVolumeSlider",
                     "=",
-                    "GlobalVolume()",
+                    "SFXVolume",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
                   },
                   "parameters": [
-                    "SFXVolumeLabel",
-                    "Text",
+                    "MusicVolumeSlider",
                     "=",
-                    "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                    "MusicVolume",
+                    ""
                   ]
                 }
               ]
@@ -16810,38 +17032,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "OptionsBackground"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "OptionsTitle"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ToggleMusicSlider"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BackButton"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -16860,7 +17050,7 @@
                 "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
               },
               "parameters": [
-                "ToggleMusicSlider",
+                "SFXVolumeSlider",
                 "="
               ]
             },
@@ -16878,12 +17068,23 @@
           "actions": [
             {
               "type": {
-                "value": "ModGlobalVolume"
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SFXVolume",
+                "=",
+                "SFXVolumeSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
               },
               "parameters": [
                 "",
+                "2",
                 "=",
-                "ToggleMusicSlider.Value()"
+                "SFXVolume"
               ]
             },
             {
@@ -16894,7 +17095,65 @@
                 "SFXVolumeLabel",
                 "Text",
                 "=",
-                "\"SFX Volume: \" + ToString(ToggleMusicSlider.Value()) + \"%\""
+                "\"SFX Volume: \" + ToString(SFXVolume) + \"%\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicVolumeSlider",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMenuOpen",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MusicVolume",
+                "=",
+                "MusicVolumeSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "MusicVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MusicVolumeLabel",
+                "Text",
+                "=",
+                "\"Music Volume: \" + ToString(MusicVolume) + \"%\""
               ]
             }
           ]
@@ -16938,13 +17197,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Crystal_collect.ogg",
+                "2",
                 "",
-                "",
+                "SFXVolume",
                 ""
               ]
             },
@@ -17175,13 +17435,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Footstep_1.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -17204,13 +17465,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Footstep_2.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -17233,13 +17495,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Footstep_3.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -17262,13 +17525,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Footstep_4.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -17291,13 +17555,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Footstep_5.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -17637,7 +17902,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690399,
+        "zoomFactor": 0.5843784410740932,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17649,27 +17914,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "0dbd5b27-af64-4374-a15f-b16a739be517",
-          "width": 0,
-          "x": 451,
-          "y": 41,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "NewText",
           "persistentUuid": "dc8843b2-df01-4e49-bd94-3ddfa6a7636f",
           "width": 0,
-          "x": 432,
-          "y": 449,
+          "x": 824,
+          "y": 274,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -17684,8 +17933,8 @@
           "name": "GreenButton",
           "persistentUuid": "4c61e5e0-01a7-4525-964c-292f5a15f7fc",
           "width": 0,
-          "x": 514,
-          "y": 541,
+          "x": 904,
+          "y": 369,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -17706,69 +17955,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 719,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Game_Over_background_image",
+          "persistentUuid": "ba0e55ca-be23-4fce-bd87-aac3bc6522c5",
+          "width": 1281,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\menu logo.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 379,
-                            "y": 0
-                          },
-                          {
-                            "x": 379,
-                            "y": 370
-                          },
-                          {
-                            "x": 0,
-                            "y": 370
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "assetStoreId": "",
           "bold": false,
@@ -17834,7 +18040,7 @@
               "leftMargin": 16,
               "rightMargin": 16,
               "texture": "Green Button_Hovered.png",
-              "tiled": false,
+              "tiled": true,
               "topMargin": 16,
               "width": 256
             },
@@ -17844,7 +18050,7 @@
               "leftMargin": 16,
               "rightMargin": 16,
               "texture": "Green Button_Idle.png",
-              "tiled": false,
+              "tiled": true,
               "topMargin": 16,
               "width": 256
             },
@@ -17858,9 +18064,9 @@
               "textAlignment": "center",
               "characterSize": 60,
               "color": {
-                "b": 29,
-                "g": 99,
-                "r": 62
+                "b": 74,
+                "g": 74,
+                "r": 74
               },
               "content": {
                 "bold": false,
@@ -17881,7 +18087,7 @@
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
                 "characterSize": 60,
-                "color": "62;99;29"
+                "color": "74;74;74"
               }
             },
             "Pressed": {
@@ -17890,24 +18096,84 @@
               "leftMargin": 16,
               "rightMargin": 16,
               "texture": "Green Button_Pressed.png",
-              "tiled": false,
+              "tiled": true,
               "topMargin": 32,
               "width": 256
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Game_Over_background_image",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "game over screen.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewSprite"
-          },
-          {
             "objectName": "NewText"
           },
           {
             "objectName": "GreenButton"
+          },
+          {
+            "objectName": "Game_Over_background_image"
           }
         ]
       },
@@ -17949,7 +18215,7 @@
                 "assets\\ditty.mp3",
                 "1",
                 "75",
-                "",
+                "MusicVolume",
                 ""
               ]
             }
@@ -19139,6 +19405,16 @@
                 },
                 {
                   "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMenuOpen",
+                    "=",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
                     "inverted": true,
                     "value": "CompareTimer"
                   },
@@ -19348,13 +19624,14 @@
                     },
                     {
                       "type": {
-                        "value": "PlaySound"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
                         "",
                         "Spell_spikes2.ogg",
+                        "2",
                         "",
-                        "",
+                        "SFXVolume",
                         ""
                       ]
                     }
@@ -19649,13 +19926,14 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Tower_friendly.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -19975,13 +20253,14 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Tower_fireattack.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -20096,13 +20375,14 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Tower_blueattack.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -21647,7 +21927,7 @@
                     "",
                     "Tower_damage.ogg",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
@@ -22738,13 +23018,14 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "capybara_damage_5.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 },
@@ -22801,13 +23082,14 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "capybara_damage_6.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 },
@@ -22895,13 +23177,14 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "capybara_death.ogg",
+                    "2",
                     "",
-                    "",
+                    "SFXVolume",
                     ""
                   ]
                 }
