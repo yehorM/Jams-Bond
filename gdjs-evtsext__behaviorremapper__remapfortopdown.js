@@ -286,7 +286,7 @@ gdjs.evtsExt__BehaviorRemapper__RemapForTopdown.RemapForTopdown.prototype.SetCus
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(17760204);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(17773396);
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setUp(eventsFunctionContext.getArgument("up"))
