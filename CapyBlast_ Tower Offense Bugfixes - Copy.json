@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "C:\\Users\\onewu\\Desktop\\GDevelop Big Game Jam\\Upload Test",
+    "latestCompilationDirectory": "C:\\Users\\onewu\\Desktop\\GDevelop Big Game Jam\\Final Export",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -62,9 +62,9 @@
       "backgroundFadeInDuration": 0.5,
       "backgroundImageResourceName": "logo capy loading2.png",
       "gdevelopLogoStyle": "light",
-      "logoAndProgressFadeInDuration": 0.5,
+      "logoAndProgressFadeInDuration": 0.4,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 2,
+      "minDuration": 0.8,
       "progressBarColor": 16098851,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -75,10 +75,16 @@
     },
     "watermark": {
       "placement": "bottom",
-      "showWatermark": true
+      "showWatermark": false
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "F1wGafzVqvaoof9tYLxuRGiqxi52",
+      "cFJuwPhJSZZPdr00sWqPUfqHsNv2"
+    ],
+    "authorUsernames": [
+      "WilonWuff",
+      "Rainbow__"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -712,7 +718,7 @@
       {
         "file": "assets/TowerSiteDie4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TowerSiteDie4.png\"}",
         "name": "TowerSiteDie4",
         "smoothed": true,
         "userAdded": false
@@ -1142,26 +1148,6 @@
         "userAdded": false
       },
       {
-        "file": "capybara_damage_5.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "capybara_damage_5.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "capybara_damage_6.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "capybara_damage_6.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "Click_sign.ogg",
         "kind": "audio",
         "metadata": "",
@@ -1186,16 +1172,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "Level_end.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Stone_attack.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Stone_attack.ogg",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1501,6 +1477,266 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/6ba2b064d2ab76e8e96ac9383f21a564b494f7f292a43643cd894819e3837f65_Blue Jewel_Spinning_1.png",
+          "name": "Blue Jewel_Spinning_1.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/c1fae05ae8d25d4249ba64012375c5fcbf59625a08e2df05a61a844867bbdca2_Blue Jewel_Spinning_10.png",
+          "name": "Blue Jewel_Spinning_10.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/78f4229f253a0ba3a687cd49ebaf93c21bd87855cbc20a373ee84840724b8458_Blue Jewel_Spinning_11.png",
+          "name": "Blue Jewel_Spinning_11.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/a3408334b0cac31e8337bf7114c97b199a3fd37665bcdef25de7a70429b9c032_Blue Jewel_Spinning_12.png",
+          "name": "Blue Jewel_Spinning_12.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/cd13d61fd36b17dce035b1c6c1eb683f98f16c2cec9cc08b5b4ff01876cf5c6b_Blue Jewel_Spinning_13.png",
+          "name": "Blue Jewel_Spinning_13.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/dffd454f00807e27759ec54b2fafd5a00183a1212c6b91285cecc1a24a4dcf04_Blue Jewel_Spinning_14.png",
+          "name": "Blue Jewel_Spinning_14.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/d3caaab5ef44d705f80e717a0099d2ca09d4103d3c46a534de647a29368f95a9_Blue Jewel_Spinning_15.png",
+          "name": "Blue Jewel_Spinning_15.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/9dee9ff04806a6e0a660826013148f2c96292bb42c141a5c9e28d86503d473ec_Blue Jewel_Spinning_16.png",
+          "name": "Blue Jewel_Spinning_16.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/227ec10adf2c6c36cd18d0bdc6dcc39ef56f9950b12f5b8e4ade74eb0b65834d_Blue Jewel_Spinning_2.png",
+          "name": "Blue Jewel_Spinning_2.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/3c60d6d73cb9d497b82ed907eccedd30970eec765433f0105e422615c7fcf7f8_Blue Jewel_Spinning_3.png",
+          "name": "Blue Jewel_Spinning_3.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/d37d3ca0eb92eb1c4703c1f4ae00692b03a30014f6f5b66d16cf4e1b9ef7e05a_Blue Jewel_Spinning_4.png",
+          "name": "Blue Jewel_Spinning_4.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/4bcffeaeb18ea2c2f4b74a369d971c8e089d4af8676b14a9a056f3b80c0d9bcc_Blue Jewel_Spinning_5.png",
+          "name": "Blue Jewel_Spinning_5.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/7d89cdb1222be0352f4ccf531405e71fd6d4c61a71ce37d7588963cb64053427_Blue Jewel_Spinning_6.png",
+          "name": "Blue Jewel_Spinning_6.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/4b2ca97167ecffed5f44798548f30cc47c243c3a5996208cd64582004b8a573c_Blue Jewel_Spinning_7.png",
+          "name": "Blue Jewel_Spinning_7.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/42ab0db79021dc6eb0ef1b6ac102cb5c35b5b7bee3107279d3240c110ddc7a57_Blue Jewel_Spinning_8.png",
+          "name": "Blue Jewel_Spinning_8.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/c094942d75b70a945f96818705fb4f55fe3e93f1dd863110db72cc1813d4995a_Blue Jewel_Spinning_9.png",
+          "name": "Blue Jewel_Spinning_9.png"
+        }
+      },
+      {
+        "file": "assets/UI2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "UI2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpinningUI.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SpinningUI",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Monster_death_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Monster_death_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster_death_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Monster_death_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TowerSite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TowerSite.png\"}",
+        "name": "TowerSite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TowerSiteHighlighted.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TowerSiteHighlighted.png\"}",
+        "name": "TowerSiteHighlighted",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TowerSiteBuild.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TowerSiteBuild.png\"}",
+        "name": "TowerSiteBuild",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TowerSite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TowerSite3.png\"}",
+        "name": "TowerSite3",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -2383,6 +2619,12 @@
           "name": "EnemyDying",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "JustDied",
+          "persistentUuid": "fede8294-ff0a-4301-956d-608688f3864c",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -2873,6 +3115,12 @@
           "name": "MeleeReady",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "JustDied",
+          "persistentUuid": "fede8294-ff0a-4301-956d-608688f3864c",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -3437,6 +3685,12 @@
           "name": "EnemyAggressive2",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "JustDied",
+          "persistentUuid": "fede8294-ff0a-4301-956d-608688f3864c",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -3482,12 +3736,11 @@
           "TintColor": "\"255;255;255\""
         },
         {
-          "isFolded": true,
           "name": "Health",
           "type": "Health::Health",
-          "Health": 100,
+          "Health": 130,
           "CurrentHealth": 0,
-          "MaxHealth": 100,
+          "MaxHealth": 130,
           "DamageCooldown": 0,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -4014,36 +4267,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TowerSite2",
+                  "image": "TowerSite3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 128,
-                    "y": 219
+                    "x": 128.5,
+                    "y": 194.5
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 128,
+                    "y": 197
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 52,
-                        "y": 170
+                        "x": 53.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 170
+                        "x": 198.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 276
+                        "x": 198.5,
+                        "y": 317
                       },
                       {
-                        "x": 52,
-                        "y": 276
+                        "x": 53.5,
+                        "y": 317
                       }
                     ]
                   ]
@@ -4063,36 +4316,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TowerSiteHighlighted2",
+                  "image": "TowerSiteHighlighted",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 128,
-                    "y": 219
+                    "x": 128.5,
+                    "y": 194.5
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 128,
+                    "y": 197
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 52,
-                        "y": 170
+                        "x": 53.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 170
+                        "x": 198.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 276
+                        "x": 198.5,
+                        "y": 317
                       },
                       {
-                        "x": 52,
-                        "y": 276
+                        "x": 53.5,
+                        "y": 317
                       }
                     ]
                   ]
@@ -4112,36 +4365,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TowerSiteBuild2",
+                  "image": "TowerSiteBuild",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 128,
-                    "y": 219
+                    "x": 128.5,
+                    "y": 194.5
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 128,
+                    "y": 197
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 52,
-                        "y": 170
+                        "x": 53.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 170
+                        "x": 198.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 276
+                        "x": 198.5,
+                        "y": 317
                       },
                       {
-                        "x": 52,
-                        "y": 276
+                        "x": 53.5,
+                        "y": 317
                       }
                     ]
                   ]
@@ -4165,32 +4418,32 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 128,
-                    "y": 219
+                    "x": 128.5,
+                    "y": 194.5
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 128,
+                    "y": 197
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 52,
-                        "y": 170
+                        "x": 53.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 170
+                        "x": 198.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 276
+                        "x": 198.5,
+                        "y": 317
                       },
                       {
-                        "x": 52,
-                        "y": 276
+                        "x": 53.5,
+                        "y": 317
                       }
                     ]
                   ]
@@ -4214,32 +4467,32 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 128,
-                    "y": 219
+                    "x": 128.5,
+                    "y": 194.5
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 128,
+                    "y": 197
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 52,
-                        "y": 170
+                        "x": 53.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 170
+                        "x": 198.5,
+                        "y": 213.5
                       },
                       {
-                        "x": 193.5,
-                        "y": 276
+                        "x": 198.5,
+                        "y": 317
                       },
                       {
-                        "x": 52,
-                        "y": 276
+                        "x": 53.5,
+                        "y": 317
                       }
                     ]
                   ]
@@ -4391,13 +4644,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 112.5,
-                    "y": 399
+                    "y": 193
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 111.5,
-                    "y": 399
+                    "x": 117.5,
+                    "y": 205
                   },
                   "customCollisionMask": [
                     [
@@ -4440,13 +4693,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 112.5,
-                    "y": 399
+                    "y": 193
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 111.5,
-                    "y": 399
+                    "x": 117.5,
+                    "y": 205
                   },
                   "customCollisionMask": [
                     [
@@ -4771,13 +5024,14 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "InitialValue": 50,
-        "MaxValue": 50,
+        "InitialValue": 120,
+        "MaxValue": 120,
         "BarTopPadding": 8,
         "BarRightPadding": 10,
         "BarBottomPadding": 8,
         "BarLeftPadding": 10,
-        "PreviousHighValueDuration": 0
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
       },
       "childrenContent": {
         "Background": {
@@ -4864,7 +5118,7 @@
         "BarRightPadding": 25,
         "BarBottomPadding": 5,
         "InitialValue": 0,
-        "MaxValue": 6,
+        "MaxValue": 7,
         "EasingDuration": 0
       },
       "childrenContent": {
@@ -5281,6 +5535,12 @@
         {
           "name": "EnemyDying",
           "persistentUuid": "41088a28-352f-4425-b788-4d0b31355551",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "JustDied",
+          "persistentUuid": "fede8294-ff0a-4301-956d-608688f3864c",
           "type": "boolean",
           "value": false
         }
@@ -7954,6 +8214,67 @@
           "width": 21
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "UIScroll",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "UI2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "UI2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 11
+                      },
+                      {
+                        "x": 292,
+                        "y": 11
+                      },
+                      {
+                        "x": 292,
+                        "y": 106
+                      },
+                      {
+                        "x": 10,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8071,6 +8392,9 @@
       {
         "folderName": "UI",
         "children": [
+          {
+            "objectName": "UIScroll"
+          },
           {
             "objectName": "MouseIcon"
           },
@@ -8276,6 +8600,11 @@
     },
     {
       "name": "Failstate",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Winstate",
       "type": "boolean",
       "value": false
     },
@@ -8883,11 +9212,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203709942,
+        "zoomFactor": 0.6244537826600015,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "GameNotExit",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -9028,8 +9363,10 @@
           "height": 628,
           "keepRatio": true,
           "layer": "Options Layer",
+          "locked": true,
           "name": "OptionsBackground",
           "persistentUuid": "758bc9a2-a45d-4435-b013-17d959eca0bd",
+          "sealed": true,
           "width": 665,
           "x": 206,
           "y": -61,
@@ -9066,6 +9403,38 @@
           "x": 362,
           "y": 180,
           "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Credits_Text",
+          "persistentUuid": "ad4c3e36-5726-46a9-a1cd-67453360975a",
+          "width": 0,
+          "x": 420,
+          "y": 7,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mocktext",
+          "persistentUuid": "e00b9446-4db1-422b-b0b6-5e25196f3c31",
+          "width": 0,
+          "x": 713,
+          "y": 520,
+          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9458,6 +9827,90 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Credits_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Development:   Wilon\n                  Art:  Daiika\n             Audio:  VM-Sound\nProgramming:  Rainbow",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "14;14;14",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Development:   Wilon\n                  Art:  Daiika\n             Audio:  VM-Sound\nProgramming:  Rainbow",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Mocktext",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You're in browser, silly!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 158,
+            "g": 255,
+            "r": 239
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "255;255;255",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You're in browser, silly!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "color": "239;255;158"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9474,6 +9927,12 @@
           },
           {
             "objectName": "ExitButton"
+          },
+          {
+            "objectName": "Credits_Text"
+          },
+          {
+            "objectName": "Mocktext"
           }
         ]
       },
@@ -9511,6 +9970,14 @@
               "parameters": [
                 "",
                 "\"Options Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Mocktext"
               ]
             }
           ]
@@ -9579,6 +10046,32 @@
           "conditions": [
             {
               "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "GameNotExit",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Mocktext",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -9617,6 +10110,16 @@
                 "2",
                 "",
                 "SFXVolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "GameNotExit",
+                "True",
                 ""
               ]
             }
@@ -10538,7 +11041,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000231,
+        "zoomFactor": 0.6455105703311785,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10590,6 +11093,11 @@
         },
         {
           "name": "FinalTutorialStarted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasBigSpears",
           "type": "boolean",
           "value": false
         }
@@ -14073,8 +14581,8 @@
           "name": "PathfindingObstacle",
           "persistentUuid": "67fe485c-a269-477b-b8f6-08ad7a8045dd",
           "width": 369,
-          "x": 2642,
-          "y": 1055,
+          "x": 2637,
+          "y": 1057,
           "zOrder": 2904,
           "numberProperties": [],
           "stringProperties": [],
@@ -14226,8 +14734,8 @@
           "name": "FinalEnemyTrigger",
           "persistentUuid": "15314f39-706d-40fe-ae07-fe2522fe7457",
           "width": 104,
-          "x": 3422,
-          "y": 314,
+          "x": 3362,
+          "y": 312,
           "zOrder": 2906,
           "numberProperties": [],
           "stringProperties": [],
@@ -14482,6 +14990,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BlueJewel",
+          "persistentUuid": "933420a5-36d8-4e5c-8a93-0781904edda6",
+          "width": 60,
+          "x": 2332,
+          "y": 463,
+          "zOrder": 2912,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "UI Layer",
+          "name": "UIScroll",
+          "persistentUuid": "1e6ecb9e-8e0e-4106-825d-b193b5c75a2d",
+          "width": 315,
+          "x": 12,
+          "y": 594,
+          "zOrder": 2913,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14674,6 +15216,667 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c0ee34c55442f2a2dc4019952ced7620db96445db888900f60bdc6a4e883e541",
+          "name": "BlueJewel",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Spinning",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c0ee34c55442f2a2dc4019952ced7620db96445db888900f60bdc6a4e883e541",
+          "name": "BlueJewelUI",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "SpinningUI",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SpinningUI",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14687,6 +15890,12 @@
           },
           {
             "objectName": "FinalEnemyTrigger"
+          },
+          {
+            "objectName": "BlueJewel"
+          },
+          {
+            "objectName": "BlueJewelUI"
           }
         ]
       },
@@ -15046,19 +16255,6 @@
                 "40",
                 "",
                 "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Stone_attack.ogg",
-                "3",
-                "",
-                "SFXVolume",
                 ""
               ]
             }
@@ -15873,6 +17069,43 @@
                 "1000"
               ]
             },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "FinalTutorialStarted",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "FriendlyTowerCount",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "FinalTutorialStarted",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -16830,6 +18063,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -16850,16 +18089,6 @@
             },
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Thanks For Playing\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -16868,6 +18097,63 @@
                 "5",
                 "",
                 "SFXVolume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Winstate",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+              },
+              "parameters": [
+                "TransitionPainter",
+                "FlashTransitionPainter",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Winstate",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Failstate",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Thanks For Playing\"",
                 ""
               ]
             }
@@ -17242,6 +18528,50 @@
                 "=",
                 "SFXVolume"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "12",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "13",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "14",
+                "=",
+                "SFXVolume"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "15",
+                "=",
+                "SFXVolume"
+              ]
             }
           ]
         },
@@ -17360,8 +18690,8 @@
               "parameters": [
                 "",
                 "ItemUIIcon",
-                "SceneWindowWidth() - 40 - 20*(1 + ItemsCollectedCount)",
-                "20",
+                "30 + 20*(1 + ItemsCollectedCount)",
+                "640",
                 "\"UI Layer\""
               ]
             },
@@ -17478,8 +18808,8 @@
               "parameters": [
                 "",
                 "UI_SpellIcon_Fire",
-                "SceneWindowWidth() - 80",
-                "62",
+                "158",
+                "625",
                 "\"UI Layer\""
               ]
             },
@@ -17490,8 +18820,8 @@
               "parameters": [
                 "UI_SpellIcon_Fire",
                 "Resizable",
-                "48",
-                "42"
+                "80",
+                "70"
               ]
             },
             {
@@ -17500,6 +18830,67 @@
               },
               "parameters": [
                 "HasSpellFire",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "BlueJewel",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BlueJewel",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BlueJewelUI",
+                "230",
+                "630",
+                "\"UI Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "BlueJewelUI",
+                "Resizable",
+                "54",
+                "54"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "HasBigSpears",
                 "True",
                 ""
               ]
@@ -18394,6 +19785,16 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
+                "Winstate",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
                 "Failstate",
                 "False",
                 ""
@@ -18645,7 +20046,7 @@
           "persistentUuid": "5e20092b-4e72-42bf-9ebc-00c8ddb7c9ea",
           "width": 391,
           "x": 447,
-          "y": 555,
+          "y": 544,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -18890,7 +20291,7 @@
               },
               "parameters": [
                 "",
-                "assets\\ditty.mp3",
+                "Capybara Menu Theme.ogg",
                 "1",
                 "75",
                 "",
@@ -18920,6 +20321,26 @@
               "parameters": [
                 "",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Winstate",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Failstate",
+                "False",
+                ""
               ]
             }
           ],
@@ -19636,6 +21057,16 @@
                 },
                 {
                   "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "SpellSigil",
+                    "=",
+                    "-20000"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
@@ -19686,6 +21117,16 @@
                         "Opacity",
                         "=",
                         "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "SpearSigil",
+                        "=",
+                        "-19000"
                       ]
                     },
                     {
@@ -19774,10 +21215,51 @@
                       "parameters": [
                         "",
                         "Spell_spikes2.ogg",
-                        "2",
+                        "15",
                         "",
                         "SFXVolume",
                         ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "HasBigSpears",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "SpearSigil",
+                            "Scale",
+                            "*",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Spears",
+                            "Scale",
+                            "*",
+                            "2"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -21831,7 +23313,8 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Creatures",
               "conditions": [
                 {
                   "type": {
@@ -21894,6 +23377,131 @@
                     "EnemyAggressive",
                     "False",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Creatures",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Creatures",
+                    "Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Creatures",
+                    "JustDied",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Creatures",
+                    "JustDied",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RandomRoll",
+                        "=",
+                        "Random(100)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RandomRoll",
+                            ">",
+                            "50"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "Monster_death_1.ogg",
+                            "13",
+                            "SFXVolume",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RandomRoll",
+                            "<=",
+                            "50"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "Monster_death_2.ogg",
+                            "14",
+                            "SFXVolume",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "RandomRoll",
+                      "type": "number",
+                      "value": 0
+                    }
                   ]
                 }
               ]
@@ -22287,6 +23895,160 @@
                     "Tower_damage.ogg",
                     "",
                     "SFXVolume",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "EnemyTower",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "FriendlyFireball",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "Health",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Flash::FlashColor::Flash"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "FlashColor",
+                    "0.8",
+                    "\"173;88;88\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "Health",
+                    "20",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Tower_damage.ogg",
+                    "",
+                    "SFXVolume / 2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FriendlyFireball",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "EnemyTower",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "SpellItem_Fire",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "Health",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Flash::FlashColor::Flash"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "FlashColor",
+                    "0.8",
+                    "\"173;88;88\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "EnemyTower",
+                    "Health",
+                    "50",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Tower_damage.ogg",
+                    "",
+                    "SFXVolume / 2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SpellItem_Fire",
                     ""
                   ]
                 }
@@ -23430,7 +25192,7 @@
                       "parameters": [
                         "",
                         "capybara_damage_1.ogg",
-                        "2",
+                        "12",
                         "",
                         "SFXVolume",
                         ""
@@ -23460,7 +25222,7 @@
                       "parameters": [
                         "",
                         "capybara_damage_2.ogg",
-                        "2",
+                        "12",
                         "",
                         "SFXVolume",
                         ""
@@ -23490,7 +25252,7 @@
                       "parameters": [
                         "",
                         "capybara_damage_3.ogg",
-                        "2",
+                        "12",
                         "",
                         "SFXVolume",
                         ""
@@ -23588,9 +25350,9 @@
                       "parameters": [
                         "",
                         "capybara_damage_1.ogg",
-                        "2",
+                        "12",
                         "",
-                        "SFXVolume",
+                        "SFXVolume * 0.8",
                         ""
                       ]
                     }
@@ -23618,9 +25380,9 @@
                       "parameters": [
                         "",
                         "capybara_damage_2.ogg",
-                        "2",
+                        "12",
                         "",
-                        "SFXVolume",
+                        "SFXVolume * 0.8",
                         ""
                       ]
                     }
@@ -23648,9 +25410,9 @@
                       "parameters": [
                         "",
                         "capybara_damage_3.ogg",
-                        "2",
+                        "12",
                         "",
-                        "SFXVolume",
+                        "SFXVolume * 0.8",
                         ""
                       ]
                     }
